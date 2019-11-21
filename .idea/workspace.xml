@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9cd3a26-cd35-43e6-a433-a84a350d322a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Sm7z7YG95Gl16t1IHwu9TzOJeT" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hotel" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.typerenderers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/com" />
+      <recent name="$PROJECT_DIR$/src/com/hotel" />
+      <recent name="$PROJECT_DIR$/src/com/hotel/game" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Search2DMatrix">
+    <configuration name="FindComplement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.FindComplement" />
+      <module name="PostCall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxNumberOfBaloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.MaxNumberOfBaloons" />
+      <module name="PostCall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.NumArray" />
+      <module name="PostCall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Search2DMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.Search2DMatrix" />
+      <module name="PostCall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortByFrequency" />
+      <module name="PostCall" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SortByFrequency" />
+      <item itemvalue="Application.NumArray" />
+      <item itemvalue="Application.FindComplement" />
+      <item itemvalue="Application.MaxNumberOfBaloons" />
+      <item itemvalue="Application.Search2DMatrix" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Search2DMatrix" />
+        <item itemvalue="Application.MaxNumberOfBaloons" />
+        <item itemvalue="Application.FindComplement" />
+        <item itemvalue="Application.NumArray" />
+        <item itemvalue="Application.SortByFrequency" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9cd3a26-cd35-43e6-a433-a84a350d322a" name="Default Changelist" comment="" />
+      <created>1572157176693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572157176693</updated>
+      <workItem from="1572157179789" duration="3296000" />
+      <workItem from="1572244297181" duration="16743000" />
+      <workItem from="1572430703557" duration="9676000" />
+      <workItem from="1572512152035" duration="31000000" />
+      <workItem from="1572696782937" duration="21914000" />
+      <workItem from="1572866461005" duration="2633000" />
+      <workItem from="1572879561099" duration="37991000" />
+      <workItem from="1573210125953" duration="11966000" />
+      <workItem from="1573478524197" duration="8894000" />
+      <workItem from="1573541774262" duration="17788000" />
+      <workItem from="1573790511967" duration="27226000" />
+      <workItem from="1574141130990" duration="3923000" />
+      <workItem from="1574241774801" duration="5697000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ProductElem.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/BinarySearchTree.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/BalancedStringSplit.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/MinJumpToReachEnd.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/RegexMatch.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="matrix[mid + 1][0]" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PostCall$RemoveParantheses.ic" NAME="RemoveParantheses Coverage Results" MODIFIED="1573479211415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$Main.ic" NAME="Main Coverage Results" MODIFIED="1572173559499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PostCall$RemoveDuplicates.ic" NAME="RemoveDuplicates Coverage Results" MODIFIED="1572262827830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$BalancedStringSplit.ic" NAME="BalancedStringSplit Coverage Results" MODIFIED="1573541819804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$Exor.ic" NAME="Exor Coverage Results" MODIFIED="1573884832718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$LongestOnes.ic" NAME="LongestOnes Coverage Results" MODIFIED="1573035593034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.*</FILTER>
+    </SUITE>
+  </component>
+</project>
