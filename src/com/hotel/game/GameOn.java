@@ -165,7 +165,7 @@ public class GameOn {
 	}
 	
 	private static void solveStageTwo (JSONObject ansObject, JSONArray jArr) throws Exception {
-		System.out.println("Solving Stage Teo!!!....");
+		System.out.println("Solving Stage Two!!!....");
 		int count = 0;
 		for (Object j : jArr) {
 			JSONObject tmp = (JSONObject) j;

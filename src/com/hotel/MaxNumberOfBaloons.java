@@ -6,6 +6,7 @@ public class MaxNumberOfBaloons {
 
     public static void main(String arg[]){
         int[] nums= {1,2,3,4};
+//        Stack<Integer> s = new Stack<>();
         System.out.println(containsDuplicate(nums));
     }
         public int maxNumberOfBalloons(String text) {

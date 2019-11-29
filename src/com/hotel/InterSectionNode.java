@@ -12,7 +12,7 @@ class ListNode {
           next = null;
       }
   }
-public class Solution {
+public class InterSectionNode {
 
     public static void main(String arg[]){
         List<ListNode> listNodesA = new LinkedList<>();
