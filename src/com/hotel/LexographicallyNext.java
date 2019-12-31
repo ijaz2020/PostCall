@@ -65,7 +65,7 @@ public class LexographicallyNext {
 
         for(int i=1; i<=1; i++)
         {
-            String input = "hefg";
+            String input = "abczyxnm";
             System.out.println(getLexicographicallyGreaterString(input));
 //            System.out.println(rearrangeWord(input));
         }

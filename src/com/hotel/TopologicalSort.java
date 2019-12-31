@@ -6,7 +6,8 @@ public class TopologicalSort {
 
     public static void main(String arg[]){
         TopologicalSort t = new TopologicalSort();
-        int[][] top = { {1,0}, {2,0}, {4,1}, {3,2}, {5,4}, {5,3}};
+        int[][] top = { {1,0}, {2,0}, {4,1}, {3,2},{2,3}, {5,4}, {5,3}};
+//        char[][] top = { {'b','a'}, {'c','a'}, {'e','b'}, {'d','c'}, {'f','e'}, {'f','d'}};
         System.out.println(Arrays.toString(t.findOrder(6, top)));
     }
     public int[] findOrder(int numCourses, int[][] prerequisites) {
@@ -25,9 +26,6 @@ public class TopologicalSort {
                 order[index++] = i;
                 queue.offer(i);
             }
-
-        Queue<Integer> queue1 = new LinkedList<>();
-            Stack<Integer> s1 = new Stack<>();
 
         // How many courses don't need prerequisites.
         while (!queue.isEmpty()) {

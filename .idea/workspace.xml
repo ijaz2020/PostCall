@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9cd3a26-cd35-43e6-a433-a84a350d322a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/CountBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hotel/MaxNumberOfBaloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/MaxNumberOfBaloons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hotel/Search2DMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/Search2DMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hotel/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/InterSectionNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hotel/game/GameOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/game/GameOn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MaxNumberOfBaloons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MaxNumberOfBaloons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Search2DMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Search2DMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/game/GameOn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/game/GameOn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostCall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PostCall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rankCalculation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rankCalculation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/HttpURLConnectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/HttpURLConnectionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/LexographicallyNext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/LexographicallyNext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/NextGreaterElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/RankCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/RankCalculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/TopologicalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/SearchSuggestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/isValidParantheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/isValidParantheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/tes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/tes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/HttpURLConnectionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/HttpURLConnectionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/LexographicallyNext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/LexographicallyNext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/LongestIncreasingSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/LongestIncreasingSubsequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/NextGreaterElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/NextGreaterElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RankCalculation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RankCalculation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TopologicalSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Trie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TrieNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses$Solution$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses$Solution$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/tes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/tes.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +55,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hotel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../csdb" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.typerenderers" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -70,9 +85,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RankCalculation">
-    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.CourseSchedule" />
+  <component name="RunManager" selected="Python.app">
+    <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.FloodFill" />
       <module name="PostCall" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindInRotatedSortedII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.FindInRotatedSortedII" />
+    <configuration name="LongPresses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.LongPresses" />
       <module name="PostCall" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RankCalculation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.RankCalculation" />
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.NextGreaterElement" />
       <module name="PostCall" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.Solution" />
+    <configuration name="RottinOranges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.RottinOranges" />
       <module name="PostCall" />
       <extension name="coverage">
         <pattern>
@@ -123,33 +138,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findCommonCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.findCommonCharacters" />
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PostCall" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hotel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.findCommonCharacters" />
-      <item itemvalue="Application.FindInRotatedSortedII" />
-      <item itemvalue="Application.CourseSchedule" />
-      <item itemvalue="Application.RankCalculation" />
+      <item itemvalue="Application.LongPresses" />
+      <item itemvalue="Application.NextGreaterElement" />
+      <item itemvalue="Application.RottinOranges" />
+      <item itemvalue="Application.FloodFill" />
+      <item itemvalue="Python.app" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RankCalculation" />
-        <item itemvalue="Application.CourseSchedule" />
-        <item itemvalue="Application.findCommonCharacters" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.FindInRotatedSortedII" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Application.FloodFill" />
+        <item itemvalue="Application.RottinOranges" />
+        <item itemvalue="Application.NextGreaterElement" />
+        <item itemvalue="Application.LongPresses" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +204,24 @@
       <workItem from="1574580674147" duration="10742000" />
       <workItem from="1574795729202" duration="6222000" />
       <workItem from="1574919561740" duration="2428000" />
-      <workItem from="1575031244890" duration="4428000" />
+      <workItem from="1575031244890" duration="7166000" />
+      <workItem from="1575050434956" duration="16215000" />
+      <workItem from="1575145026408" duration="3394000" />
+      <workItem from="1575226275471" duration="12839000" />
+      <workItem from="1576125681349" duration="914000" />
+      <workItem from="1576153955669" duration="7374000" />
+      <workItem from="1576239181197" duration="48156000" />
+      <workItem from="1576646948927" duration="31999000" />
+      <workItem from="1577100635155" duration="8536000" />
+      <workItem from="1577129183910" duration="1325000" />
+      <workItem from="1577170481230" duration="3964000" />
+      <workItem from="1577215793981" duration="10178000" />
+      <workItem from="1577281062957" duration="3784000" />
+      <workItem from="1577361947763" duration="1198000" />
+      <workItem from="1577434512793" duration="113000" />
+      <workItem from="1577434672398" duration="3599000" />
+      <workItem from="1577623171272" duration="1198000" />
+      <workItem from="1577786013896" duration="31000" />
     </task>
     <servers />
   </component>
@@ -207,11 +248,6 @@
           <url>file://$PROJECT_DIR$/src/ProductElem.java</url>
           <line>10</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hotel/BinarySearchTree.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/hotel/BalancedStringSplit.java</url>
@@ -243,18 +279,41 @@
           <line>27</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/BasicCalculator.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/Subsequence.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/IncreasingBST.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/IncreasingBST.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="Character.getNumericValue('9')" language="JAVA" custom="java.nio.charset.CharacterCodingException" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PostCall$RemoveParantheses.ic" NAME="RemoveParantheses Coverage Results" MODIFIED="1573479211415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hotel.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$KingToQueen.ic" NAME="KingToQueen Coverage Results" MODIFIED="1575290938538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PostCall$Main.ic" NAME="Main Coverage Results" MODIFIED="1572173559499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PostCall$RemoveDuplicates.ic" NAME="RemoveDuplicates Coverage Results" MODIFIED="1572262827830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hotel.*</FILTER>
@@ -262,9 +321,22 @@
     <SUITE FILE_PATH="coverage/PostCall$BalancedStringSplit.ic" NAME="BalancedStringSplit Coverage Results" MODIFIED="1573541819804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hotel.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$TicTocGame.ic" NAME="TicTocGame Coverage Results" MODIFIED="1576760241059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$RankCalculation.ic" NAME="RankCalculation Coverage Results" MODIFIED="1575124215161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$LongestIncreasingSubsequence.ic" NAME="LongestIncreasingSubsequence Coverage Results" MODIFIED="1575055371123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$Smallestfromleaf.ic" NAME="Smallestfromleaf Coverage Results" MODIFIED="1577008470751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/PostCall$Exor.ic" NAME="Exor Coverage Results" MODIFIED="1573884832718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hotel.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$app.coverage" NAME="app Coverage Results" MODIFIED="1577443024448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
     <SUITE FILE_PATH="coverage/PostCall$LongestOnes.ic" NAME="LongestOnes Coverage Results" MODIFIED="1573035593034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hotel.*</FILTER>
     </SUITE>

@@ -4,8 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-import static com.hotel.Trie.c;
-
 public class isValidParantheses {
 
     class Solution {
