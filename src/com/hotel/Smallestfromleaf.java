@@ -1,5 +1,7 @@
 package com.hotel;
 
+import com.hotel.tree.TreeNode;
+
 public class Smallestfromleaf {
     public static void main(String[] args){
         Smallestfromleaf s = new Smallestfromleaf();

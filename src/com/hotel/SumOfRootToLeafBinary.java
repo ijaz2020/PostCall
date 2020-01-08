@@ -1,5 +1,7 @@
 package com.hotel;
 
+import com.hotel.tree.TreeNode;
+
 public class SumOfRootToLeafBinary {
     public static void main(String[] args){
         SumOfRootToLeafBinary s = new SumOfRootToLeafBinary();

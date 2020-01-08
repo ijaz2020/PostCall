@@ -1,5 +1,7 @@
 package com.hotel;
 
+import com.hotel.tree.TreeNode;
+
 public class IncreasingBST {
     public static void main(String[] args){
         IncreasingBST i = new IncreasingBST();

@@ -1,15 +1,11 @@
 package com.hotel;
 
 
+import com.hotel.tree.TreeNode;
+
 import java.util.*;
 
-class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-  }
-class VerticalOrderingBt {
+public class VerticalOrderingBT {
     public List<List<Integer>> verticalTraversal(TreeNode root) {
 
         List<List<Integer>> orderList = new ArrayList<>();

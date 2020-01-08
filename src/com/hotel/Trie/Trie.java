@@ -1,21 +1,9 @@
-package com.hotel;
-
-class TrieNode {
-    public char val;
-    public boolean isWord;
-    public TrieNode[] children = new TrieNode[26];
-    public TrieNode() {}
-    TrieNode(char c){
-        TrieNode node = new TrieNode();
-        node.val = c;
-    }
-}
+package com.hotel.Trie;
 
 class Trie {
     private TrieNode root;
     public Trie() {
-        root = new TrieNode();
-        root.val = ' ';
+        root = new TrieNode(' ');
     }
 
     public void insert(String word) {
@@ -31,23 +19,24 @@ class Trie {
     }
 
     public boolean search(String word) {
-        TrieNode ws = root;
-        for(int i = 0; i < word.length(); i++){
-            char c = word.charAt(i);
-            if(ws.children[c - 'a'] == null) return false;
-            ws = ws.children[c - 'a'];
-        }
-        return ws.isWord;
+        TrieNode current = checkStringPresence(word);
+        return current != null && current.isWord;
     }
 
+    /** Returns if there is any word in the trie that starts with the given prefix. */
     public boolean startsWith(String prefix) {
-        TrieNode ws = root;
-        for(int i = 0; i < prefix.length(); i++){
-            char c = prefix.charAt(i);
-            if(ws.children[c - 'a'] == null) return false;
-            ws = ws.children[c - 'a'];
+        TrieNode current = checkStringPresence(prefix);
+        return current !=null;
+    }
+
+    private TrieNode checkStringPresence(String word){
+        char[] chars = word.toCharArray();
+        TrieNode current = root;
+        for(char c: chars){
+            if(current.children[c - 'a'] == null) return null;
+            current = current.children[c-'a'];
         }
-        return true;
+        return  current;
     }
 
     public static void main(String[] args){
