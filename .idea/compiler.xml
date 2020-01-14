@@ -10,7 +10,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="game" target="8" />
       <module name="PostCall" target="8" />
     </bytecodeTargetLevel>
   </component>

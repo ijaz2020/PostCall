@@ -1,118 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9cd3a26-cd35-43e6-a433-a84a350d322a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/BitManipulation/Complement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/LinkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/Trie/MagicDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/Trie/TrieNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/DuplicateZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/KthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/RevealDeck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/TopKFrequent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/AwfulDiet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/AwfulDietTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/CourseScheduleII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/numbers/AddictiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/stack/GenerateParanthesisScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/string/SortCharacterByFrequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/tree/MaximumTree.java" afterDir="false" />
+    <list default="true" id="119e766e-36ca-4e00-b302-3f3aa3c11f3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_14_ea_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_14_ea_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_14_ea_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_14_ea_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_14_ea_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_14_ea_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_14_ea_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_mac_14_ea_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_14_ea_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_mac_14_ea_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/game_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/Utils/PrintUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/DecompressionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/GridIlumination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/NQueenII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/NQueenOL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/Subset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/change" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/ShortestPathToVisitAllNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/NewYearCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/NewYearCandiesLR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/NewYearCandy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/ShortestPathGridWithObstacles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/numbers/TwoNonZeroInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PostCall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PostCall.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hotel/InOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/InOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hotel/IncreasingBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/IncreasingBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hotel/NumWithoutConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/NumWithoutConsecutiveOnes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hotel/Smallestfromleaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/Smallestfromleaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hotel/SumOfRootToLeafBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/SumOfRootToLeafBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hotel/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/Trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hotel/VerticalOrderingBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/VerticalOrderingBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/KingToQueen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/KingToQueen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/PostCall.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/PostCall.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SortBigDecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortBigDecimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SortByFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortByFrequency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/BalancedStringSplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/BalancedStringSplit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/BasicCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/BasicCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Bricks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Bricks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/CountServersThatCommunicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/CountServersThatCommunicate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/CountnonUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/CountnonUnique.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/CourseSchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/CourseSchedule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/DecodeStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/DecodeStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/DecodeWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/DecodeWays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/DiStringmatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/DiStringmatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/DivideArrayToConsecutiveNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/DivideArrayToConsecutiveNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/ElementThatAppearsOnceInSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/ElementThatAppearsOnceInSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/FindAllDisappearedInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/FindAllDisappearedInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/FizzBuzz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/FloodFill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/FloodFill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/GFG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/GFG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/GradeStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/GradeStudents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/HttpURLConnectionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/HttpURLConnectionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/InOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/InOrderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/IncreasingBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/IncreasingBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/InsertComma.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/InsertComma.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/InterSectionNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/InterSectionNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/LexographicallyNext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/LexographicallyNext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/LongestOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/LongestOnes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MaxNumberOfBaloons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MaxNumberOfBaloons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MergeIntervel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MergeIntervel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MergeKSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MergeKSortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MinAbsDiffernce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MinAbsDiffernce.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MinJumpToReachEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MinJumpToReachEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MultiplyStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MultiplyStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendarTwo$MyCalendarThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendarTwo$MyCalendarThree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendarTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendarTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/NextGreaterElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/NextGreaterElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/NumArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/NumWithoutConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/NumWithoutConsecutiveOnes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/PascalTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/PascalTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RabbitInforest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RabbitInforest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Rangesum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Rangesum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RankCalculation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RankCalculation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RegexMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RegexMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RemoveAdjacentDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RemoveAdjacentDuplicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RemoveNthNodeFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RemoveNthNodeFromEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RemoveParantheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RemoveParantheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RottinOranges.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RottinOranges.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SearchRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SearchRotatedSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/ShortestDistanceToCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/ShortestDistanceToCharacter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Smallestfromleaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Smallestfromleaf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Solution2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SortedSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SortedSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SubArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Sudoku.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Sudoku.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SumOfRootToLeafBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SumOfRootToLeafBinary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TelePorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TelePorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TopologicalSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TotalContinuousSubArrayK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TotalContinuousSubArrayK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TwoDMatrixSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TwoDMatrixSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/VerticalOrderingBt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/VerticalOrderingBt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/findCommonCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/findCommonCharacters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/game/GameOn$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/game/GameOn$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/game/GameOn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/game/GameOn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/game/RequestCaller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/game/RequestCaller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/minRemoveToMakeInvalid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/minRemoveToMakeInvalid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PostCall/META-INF/PostCall.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/PostCall.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="201" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -120,8 +70,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1Sm7z7YG95Gl16t1IHwu9TzOJeT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1WALvFIRC8zX91J9CWkOMjxZ3rh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -132,28 +81,68 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/hotel" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/com" />
-      <recent name="$PROJECT_DIR$/src/com/hotel/game" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.AwfulDiet">
-    <configuration name="AwfulDiet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.graph.AwfulDiet" />
+  <component name="RunManager" selected="Application.ShortestPathToVisitAllNodes">
+    <configuration name="NewYearCandies (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.NewYearCandies" />
+      <module name="PostCall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewYearCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.matrix.NewYearCandies" />
+      <module name="PostCall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.backtracking.Permutation" />
+      <module name="PostCall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestPathGridWithObstacles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.matrix.ShortestPathGridWithObstacles" />
+      <module name="PostCall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestPathToVisitAllNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.graph.ShortestPathToVisitAllNodes" />
       <module name="PostCall" />
       <extension name="coverage">
         <pattern>
@@ -161,76 +150,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseScheduleII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.graph.CourseScheduleII" />
-      <module name="PostCall" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hotel.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenerateParanthesisScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.stack.GenerateParanthesisScore" />
-      <module name="PostCall" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hotel.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MagicDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.Trie.MagicDictionary" />
-      <module name="PostCall" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hotel.Trie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.Trie.Trie" />
-      <module name="PostCall" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hotel.Trie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <extension name="recording" autostart="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GenerateParanthesisScore" />
-      <item itemvalue="Application.Trie" />
-      <item itemvalue="Application.MagicDictionary" />
-      <item itemvalue="Application.CourseScheduleII" />
-      <item itemvalue="Application.AwfulDiet" />
+      <item itemvalue="Application.NewYearCandies" />
+      <item itemvalue="Application.Permutation" />
+      <item itemvalue="Application.ShortestPathGridWithObstacles" />
+      <item itemvalue="Application.NewYearCandies (1)" />
+      <item itemvalue="Application.ShortestPathToVisitAllNodes" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AwfulDiet" />
-        <item itemvalue="Application.CourseScheduleII" />
-        <item itemvalue="Application.GenerateParanthesisScore" />
-        <item itemvalue="Application.MagicDictionary" />
-        <item itemvalue="Application.Trie" />
+        <item itemvalue="Application.ShortestPathToVisitAllNodes" />
+        <item itemvalue="Application.NewYearCandies" />
+        <item itemvalue="Application.NewYearCandies (1)" />
+        <item itemvalue="Application.ShortestPathGridWithObstacles" />
+        <item itemvalue="Application.Permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -251,242 +189,170 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d9cd3a26-cd35-43e6-a433-a84a350d322a" name="Default Changelist" comment="" />
-      <created>1572157176693</created>
+      <changelist id="119e766e-36ca-4e00-b302-3f3aa3c11f3f" name="Default Changelist" comment="" />
+      <created>1578587680479</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572157176693</updated>
-      <workItem from="1572157179789" duration="3296000" />
-      <workItem from="1572244297181" duration="16743000" />
-      <workItem from="1572430703557" duration="9676000" />
-      <workItem from="1572512152035" duration="31000000" />
-      <workItem from="1572696782937" duration="21914000" />
-      <workItem from="1572866461005" duration="2633000" />
-      <workItem from="1572879561099" duration="37991000" />
-      <workItem from="1573210125953" duration="11966000" />
-      <workItem from="1573478524197" duration="8894000" />
-      <workItem from="1573541774262" duration="17788000" />
-      <workItem from="1573790511967" duration="27226000" />
-      <workItem from="1574141130990" duration="3923000" />
-      <workItem from="1574241774801" duration="27128000" />
-      <workItem from="1574512914789" duration="4064000" />
-      <workItem from="1574580674147" duration="10742000" />
-      <workItem from="1574795729202" duration="6222000" />
-      <workItem from="1574919561740" duration="2428000" />
-      <workItem from="1575031244890" duration="7166000" />
-      <workItem from="1575050434956" duration="16215000" />
-      <workItem from="1575145026408" duration="3394000" />
-      <workItem from="1575226275471" duration="12839000" />
-      <workItem from="1576125681349" duration="914000" />
-      <workItem from="1576153955669" duration="7374000" />
-      <workItem from="1576239181197" duration="48156000" />
-      <workItem from="1576646948927" duration="31999000" />
-      <workItem from="1577100635155" duration="8536000" />
-      <workItem from="1577129183910" duration="1325000" />
-      <workItem from="1577170481230" duration="3964000" />
-      <workItem from="1577215793981" duration="10178000" />
-      <workItem from="1577281062957" duration="3784000" />
-      <workItem from="1577361947763" duration="1198000" />
-      <workItem from="1577434512793" duration="113000" />
-      <workItem from="1577434672398" duration="3599000" />
-      <workItem from="1577623171272" duration="1198000" />
-      <workItem from="1577786013896" duration="31000" />
-      <workItem from="1577974986300" duration="971000" />
-      <workItem from="1577976063902" duration="30149000" />
+      <updated>1578587680479</updated>
+      <workItem from="1578587682815" duration="7477000" />
+      <workItem from="1578657797214" duration="2609000" />
+      <workItem from="1578661132426" duration="2536000" />
+      <workItem from="1578664255307" duration="54925000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="554" y="335" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577975006215">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state x="271" y="23" key="#Java_Type_Renderers" timestamp="1578969546394">
+      <screen x="41" y="23" width="1399" height="877" />
     </state>
-    <state x="554" y="335" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.830@0.23.1440.830" timestamp="1577975006215" />
-    <state x="458" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578298210515">
+    <state x="237" y="23" key="#Java_Type_Renderers/0.23.1440.834@0.23.1440.834" timestamp="1578734640029" />
+    <state x="271" y="23" key="#Java_Type_Renderers/41.23.1399.877@41.23.1399.877" timestamp="1578969546394" />
+    <state x="999" y="432" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1578988826549">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state x="998" y="432" key="#com.intellij.debugger.actions.ViewTextAction/40.23.1400.877@40.23.1400.877" timestamp="1578886570579" />
+    <state x="998" y="432" key="#com.intellij.debugger.actions.ViewTextAction/41.23.1399.877@41.23.1399.877" timestamp="1578977264240" />
+    <state x="999" y="432" key="#com.intellij.debugger.actions.ViewTextAction/43.23.1397.877@43.23.1397.877" timestamp="1578988826549" />
+    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578661927125">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state x="458" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.834@0.23.1440.834" timestamp="1578298210515" />
-    <state x="645" y="198" key="#xdebugger.XInspectDialog" timestamp="1578243779813">
+    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.834@0.23.1440.834" timestamp="1578661927125" />
+    <state x="513" y="351" width="455" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578983651279">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state x="513" y="351" width="455" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/40.23.1400.877@40.23.1400.877" timestamp="1578983651279" />
+    <state x="510" y="160" key="#xdebugger.evaluate" timestamp="1578847485405">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state x="483" y="153" key="#xdebugger.evaluate/0.23.1440.834@0.23.1440.834" timestamp="1578661162344" />
+    <state x="510" y="160" key="#xdebugger.evaluate/41.23.1399.877@41.23.1399.877" timestamp="1578847485405" />
+    <state x="100" y="123" width="1240" height="634" key="DiffContextDialog" timestamp="1578721851430">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state x="645" y="198" key="#xdebugger.XInspectDialog/0.23.1440.834@0.23.1440.834" timestamp="1578243779813" />
-    <state width="1398" height="254" key="GridCell.Tab.0.bottom" timestamp="1578502483577">
+    <state x="100" y="123" width="1240" height="634" key="DiffContextDialog/0.23.1440.834@0.23.1440.834" timestamp="1578721851430" />
+    <state width="1357" height="277" key="GridCell.Tab.0.bottom" timestamp="1578988814317">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1578734726296" />
+    <state width="1357" height="277" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1578886839311" />
+    <state width="1357" height="277" key="GridCell.Tab.0.bottom/41.23.1399.877@41.23.1399.877" timestamp="1578980600768" />
+    <state width="1357" height="277" key="GridCell.Tab.0.bottom/43.23.1397.877@43.23.1397.877" timestamp="1578988814317" />
+    <state width="1357" height="277" key="GridCell.Tab.0.center" timestamp="1578988814316">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1578734726295" />
+    <state width="1357" height="277" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1578886839310" />
+    <state width="1357" height="277" key="GridCell.Tab.0.center/41.23.1399.877@41.23.1399.877" timestamp="1578980600767" />
+    <state width="1357" height="277" key="GridCell.Tab.0.center/43.23.1397.877@43.23.1397.877" timestamp="1578988814316" />
+    <state width="1357" height="277" key="GridCell.Tab.0.left" timestamp="1578988814316">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1578734726294" />
+    <state width="1357" height="277" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1578886839309" />
+    <state width="1357" height="277" key="GridCell.Tab.0.left/41.23.1399.877@41.23.1399.877" timestamp="1578980600767" />
+    <state width="1357" height="277" key="GridCell.Tab.0.left/43.23.1397.877@43.23.1397.877" timestamp="1578988814316" />
+    <state width="1357" height="277" key="GridCell.Tab.0.right" timestamp="1578988814317">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1578734726295" />
+    <state width="1357" height="277" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1578886839310" />
+    <state width="1357" height="277" key="GridCell.Tab.0.right/41.23.1399.877@41.23.1399.877" timestamp="1578980600768" />
+    <state width="1357" height="277" key="GridCell.Tab.0.right/43.23.1397.877@43.23.1397.877" timestamp="1578988814317" />
+    <state width="1357" height="277" key="GridCell.Tab.1.bottom" timestamp="1578988814515">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
+    <state width="1357" height="277" key="GridCell.Tab.1.bottom/40.23.1400.877@40.23.1400.877" timestamp="1578886839233" />
+    <state width="1357" height="277" key="GridCell.Tab.1.bottom/41.23.1399.877@41.23.1399.877" timestamp="1578980600769" />
+    <state width="1357" height="277" key="GridCell.Tab.1.bottom/43.23.1397.877@43.23.1397.877" timestamp="1578988814515" />
+    <state width="1357" height="277" key="GridCell.Tab.1.center" timestamp="1578988814515">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.1.center/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
+    <state width="1357" height="277" key="GridCell.Tab.1.center/40.23.1400.877@40.23.1400.877" timestamp="1578886839232" />
+    <state width="1357" height="277" key="GridCell.Tab.1.center/41.23.1399.877@41.23.1399.877" timestamp="1578980600769" />
+    <state width="1357" height="277" key="GridCell.Tab.1.center/43.23.1397.877@43.23.1397.877" timestamp="1578988814515" />
+    <state width="1357" height="277" key="GridCell.Tab.1.left" timestamp="1578988814514">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.1.left/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
+    <state width="1357" height="277" key="GridCell.Tab.1.left/40.23.1400.877@40.23.1400.877" timestamp="1578886839232" />
+    <state width="1357" height="277" key="GridCell.Tab.1.left/41.23.1399.877@41.23.1399.877" timestamp="1578980600769" />
+    <state width="1357" height="277" key="GridCell.Tab.1.left/43.23.1397.877@43.23.1397.877" timestamp="1578988814514" />
+    <state width="1357" height="277" key="GridCell.Tab.1.right" timestamp="1578988814515">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.1.right/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
+    <state width="1357" height="277" key="GridCell.Tab.1.right/40.23.1400.877@40.23.1400.877" timestamp="1578886839232" />
+    <state width="1357" height="277" key="GridCell.Tab.1.right/41.23.1399.877@41.23.1399.877" timestamp="1578980600769" />
+    <state width="1357" height="277" key="GridCell.Tab.1.right/43.23.1397.877@43.23.1397.877" timestamp="1578988814515" />
+    <state width="1357" height="277" key="GridCell.Tab.2.bottom" timestamp="1578988814239">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.2.bottom/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
+    <state width="1357" height="277" key="GridCell.Tab.2.bottom/40.23.1400.877@40.23.1400.877" timestamp="1578886839234" />
+    <state width="1357" height="277" key="GridCell.Tab.2.bottom/41.23.1399.877@41.23.1399.877" timestamp="1578980600771" />
+    <state width="1357" height="277" key="GridCell.Tab.2.bottom/43.23.1397.877@43.23.1397.877" timestamp="1578988814239" />
+    <state width="1357" height="277" key="GridCell.Tab.2.center" timestamp="1578988814239">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.2.center/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
+    <state width="1357" height="277" key="GridCell.Tab.2.center/40.23.1400.877@40.23.1400.877" timestamp="1578886839233" />
+    <state width="1357" height="277" key="GridCell.Tab.2.center/41.23.1399.877@41.23.1399.877" timestamp="1578980600770" />
+    <state width="1357" height="277" key="GridCell.Tab.2.center/43.23.1397.877@43.23.1397.877" timestamp="1578988814239" />
+    <state width="1357" height="277" key="GridCell.Tab.2.left" timestamp="1578988814239">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.2.left/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
+    <state width="1357" height="277" key="GridCell.Tab.2.left/40.23.1400.877@40.23.1400.877" timestamp="1578886839233" />
+    <state width="1357" height="277" key="GridCell.Tab.2.left/41.23.1399.877@41.23.1399.877" timestamp="1578980600770" />
+    <state width="1357" height="277" key="GridCell.Tab.2.left/43.23.1397.877@43.23.1397.877" timestamp="1578988814239" />
+    <state width="1357" height="277" key="GridCell.Tab.2.right" timestamp="1578988814239">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.2.right/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
+    <state width="1357" height="277" key="GridCell.Tab.2.right/40.23.1400.877@40.23.1400.877" timestamp="1578886839234" />
+    <state width="1357" height="277" key="GridCell.Tab.2.right/41.23.1399.877@41.23.1399.877" timestamp="1578980600771" />
+    <state width="1357" height="277" key="GridCell.Tab.2.right/43.23.1397.877@43.23.1397.877" timestamp="1578988814239" />
+    <state x="458" y="178" key="SettingsEditor" timestamp="1578977245087">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state x="229" y="79" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1578664236260" />
+    <state x="458" y="178" key="SettingsEditor/41.23.1399.877@41.23.1399.877" timestamp="1578977245087" />
+    <state width="700" height="439" key="XDebugger.FullValuePopup" timestamp="1578970287055">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="720" height="417" key="XDebugger.FullValuePopup/0.23.1440.834@0.23.1440.834" timestamp="1578726614585" />
+    <state width="700" height="439" key="XDebugger.FullValuePopup/41.23.1399.877@41.23.1399.877" timestamp="1578970287055" />
+    <state x="376" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1578665587856">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1578051659992" />
-    <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1578502483577" />
-    <state width="1398" height="254" key="GridCell.Tab.0.center" timestamp="1578502483576">
+    <state x="376" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.834@0.23.1440.834" timestamp="1578665587856" />
+    <state x="398" y="85" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578892255392">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state x="398" y="85" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/41.23.1399.877@41.23.1399.877" timestamp="1578892255392" />
+    <state x="458" y="201" key="extract.method.dialog" timestamp="1578734693136">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1578051659991" />
-    <state width="1398" height="254" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1578502483576" />
-    <state width="1398" height="254" key="GridCell.Tab.0.left" timestamp="1578502483576">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state x="458" y="201" key="extract.method.dialog/0.23.1440.834@0.23.1440.834" timestamp="1578734693136" />
+    <state x="415" y="89" width="673" height="745" key="find.popup" timestamp="1578985684394">
+      <screen x="43" y="23" width="1397" height="877" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1578051659991" />
-    <state width="1398" height="254" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1578502483576" />
-    <state width="1398" height="254" key="GridCell.Tab.0.right" timestamp="1578502483577">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state x="383" y="86" width="673" height="708" key="find.popup/0.23.1440.834@0.23.1440.834" timestamp="1578662416527" />
+    <state x="415" y="89" width="673" height="745" key="find.popup/43.23.1397.877@43.23.1397.877" timestamp="1578985684394" />
+    <state x="415" y="189" width="670" height="711" key="search.everywhere.popup" timestamp="1578917087862">
+      <screen x="41" y="23" width="1399" height="877" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1578051659992" />
-    <state width="1398" height="254" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1578502483577" />
-    <state width="1398" height="254" key="GridCell.Tab.1.bottom" timestamp="1578502483579">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state width="1398" height="191" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1578051659993" />
-    <state width="1398" height="254" key="GridCell.Tab.1.bottom/0.23.1440.834@0.23.1440.834" timestamp="1578502483579" />
-    <state width="1398" height="254" key="GridCell.Tab.1.center" timestamp="1578502483578">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state width="1398" height="191" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1578051659993" />
-    <state width="1398" height="254" key="GridCell.Tab.1.center/0.23.1440.834@0.23.1440.834" timestamp="1578502483578" />
-    <state width="1398" height="254" key="GridCell.Tab.1.left" timestamp="1578502483578">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state width="1398" height="191" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1578051659992" />
-    <state width="1398" height="254" key="GridCell.Tab.1.left/0.23.1440.834@0.23.1440.834" timestamp="1578502483578" />
-    <state width="1398" height="254" key="GridCell.Tab.1.right" timestamp="1578502483579">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state width="1398" height="191" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1578051659993" />
-    <state width="1398" height="254" key="GridCell.Tab.1.right/0.23.1440.834@0.23.1440.834" timestamp="1578502483579" />
-    <state x="229" y="77" key="SettingsEditor" timestamp="1578390393763">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state x="229" y="77" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1578390393763" />
-    <state x="320" y="179" key="Vcs.Push.Dialog.v2" timestamp="1578390345502">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state x="320" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1578390345502" />
-    <state x="376" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1577984902437">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="376" y="272" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1577984902437" />
-    <state x="377" y="61" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578478440876">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state x="377" y="61" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.834@0.23.1440.834" timestamp="1578478440876" />
-    <state x="458" y="209" key="extract.method.dialog" timestamp="1578465734908">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state x="458" y="209" key="extract.method.dialog/0.23.1440.834@0.23.1440.834" timestamp="1578465734908" />
-    <state x="383" y="84" width="824" height="712" key="find.popup" timestamp="1578495877074">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state x="383" y="84" width="824" height="708" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1578045956697" />
-    <state x="383" y="84" width="824" height="712" key="find.popup/0.23.1440.834@0.23.1440.834" timestamp="1578495877074" />
-    <state x="385" y="199" key="run.anything.popup" timestamp="1578221688510">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state x="385" y="199" key="run.anything.popup/0.23.1440.834@0.23.1440.834" timestamp="1578221688510" />
-    <state x="385" y="181" width="670" height="676" key="search.everywhere.popup" timestamp="1578489372403">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state x="385" y="181" width="670" height="676" key="search.everywhere.popup/0.23.1440.834@0.23.1440.834" timestamp="1578489372403" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ProductElem.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hotel/BalancedStringSplit.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hotel/MinJumpToReachEnd.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hotel/RegexMatch.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hotel/RemoveAdjacentDuplicates.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="112" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hotel/UniquePath.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hotel/UniquePath.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hotel/BasicCalculator.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="155" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hotel/Subsequence.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="193" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/hotel/array/TopKFrequent.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="217" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="385" y="181" width="670" height="676" key="search.everywhere.popup/0.23.1440.834@0.23.1440.834" timestamp="1578643230009" />
+    <state x="415" y="189" width="670" height="711" key="search.everywhere.popup/41.23.1399.877@41.23.1399.877" timestamp="1578917087862" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PostCall$RemoveParantheses.ic" NAME="RemoveParantheses Coverage Results" MODIFIED="1573479211415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hotel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/PostCall$BalancedStringSplit.ic" NAME="BalancedStringSplit Coverage Results" MODIFIED="1573541819804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hotel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/PostCall$AddictiveNumber.ic" NAME="AddictiveNumber Coverage Results" MODIFIED="1578043483116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hotel.numbers.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/PostCall$LongestOnes.ic" NAME="LongestOnes Coverage Results" MODIFIED="1573035593034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hotel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/PostCall$Main.ic" NAME="Main Coverage Results" MODIFIED="1572173559499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/PostCall$KingToQueen.ic" NAME="KingToQueen Coverage Results" MODIFIED="1575290938538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/PostCall$TicTocGame.ic" NAME="TicTocGame Coverage Results" MODIFIED="1576760241059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hotel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/PostCall$RankCalculation.ic" NAME="RankCalculation Coverage Results" MODIFIED="1575124215161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hotel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/PostCall$LongestIncreasingSubsequence.ic" NAME="LongestIncreasingSubsequence Coverage Results" MODIFIED="1575055371123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hotel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/PostCall$Smallestfromleaf.ic" NAME="Smallestfromleaf Coverage Results" MODIFIED="1577008470751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hotel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/PostCall$Exor.ic" NAME="Exor Coverage Results" MODIFIED="1573884832718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hotel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/PostCall$RemoveDuplicates.ic" NAME="RemoveDuplicates Coverage Results" MODIFIED="1572262827830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.hotel.*</FILTER>
+    <SUITE FILE_PATH="coverage/PostCall$LetterCasePermutation.ic" NAME="LetterCasePermutation Coverage Results" MODIFIED="1578653286477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.backtracking.*</FILTER>
     </SUITE>
   </component>
 </project>
