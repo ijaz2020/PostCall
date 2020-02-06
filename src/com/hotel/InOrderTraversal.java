@@ -1,6 +1,7 @@
 package com.hotel;
 
 import com.hotel.tree.TreeNode;
+import com.hotel.tree.TreeVisualizer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +24,7 @@ public class InOrderTraversal {
         treeNode2.right = treeNode5;
         treeNode3.left = treeNode6;
         treeNode3.right = treeNode7;
-
+        TreeVisualizer.print(treeNode1);
         System.out.println(inorderTraversal(treeNode1));
     }
 

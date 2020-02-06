@@ -14,9 +14,9 @@ public class TwoCityScheduling {
 
     public int twoCitySchedCost(int[][] costs) {
         Arrays.sort(costs, Comparator.comparingInt(a -> (a[1] - a[0])));
-        int cost = 0;
-        for (int i = 0; i < costs.length / 2; i++) {
-            cost += costs[i][1] + costs[costs.length-i-1][0];
+        int cost = 0, n = costs.length;
+        for (int i = 0; i < n / 2; i++) {
+            cost += costs[i][1] + costs[n-i-1][0];
         }
         return cost;
     }

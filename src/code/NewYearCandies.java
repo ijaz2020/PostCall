@@ -99,7 +99,11 @@ public class NewYearCandies {
                     if (next_coord.getKey() != -1 || next_coord.getValue() != -1) {
                         fillCandyUtil(next_coord.getKey(), next_coord.getValue());
                     }
-
+                    else{
+                        System.out.println("Final solution \n\n\n");
+                        printMatrix(bar);
+                        System.exit(0);
+                    }
                     p.revert(bar, i, j);
                 }
             }

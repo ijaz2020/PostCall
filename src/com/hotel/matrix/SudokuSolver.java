@@ -18,20 +18,20 @@ public class SudokuSolver {
                         {'.','.','.','4','1','9','.','.','5'},
                         {'.','.','.','.','8','.','.','7','9'}};
 
-        s.solveSudoku(board);
+        System.out.println(s.sudoku2(board));
         PrintUtils.printMatrix(board);
     }
 
     public void solveSudoku(char[][] board) {
-        doSolve(board, 0, 0);
+         doSolve(board, 0, 0);
     }
 
     private boolean doSolve(char[][] board, int row, int col) {
-        for (int i = row; i < 9; i++, col = 0) { // note: must reset col here!
+        for (int i = row; i < 9; i++, col=0) { // note: must reset col here!
             for (int j = col; j < 9; j++) {
                 if (board[i][j] != '.') continue;
                 for (char num = '1'; num <= '9'; num++) {
-                    if (isValid(board, i, j, num)) {
+                    if (isValid(i, j, num, board)) {
                         board[i][j] = num;
                         if (doSolve(board, i, j + 1))
                             return true;
@@ -44,14 +44,33 @@ public class SudokuSolver {
         return true;
     }
 
-    private boolean isValid(char[][] board, int row, int col, char num) {
-        int blkrow = (row / 3) * 3, blkcol = (col / 3) * 3; // Block no. is i/3, first element is i/3*3
-        for (int i = 0; i < 9; i++)
-            if (board[i][col] == num || board[row][i] == num ||
-                    board[blkrow + i / 3][blkcol + i % 3] == num)
+
+    boolean sudoku2(char[][] grid) {
+        return solveSudoku(0, 0, grid);
+    }
+
+    boolean solveSudoku(int row, int col, char[][] grid){
+        for(int i=row; i<9; i++, col=0){
+            for(int j=col; j<9; j++){
+                if(grid[i][j] != '.') continue;
+                for(char k='1'; k<='9';k++){
+                    if(isValid(i, j, k, grid)){
+                        grid[i][j] = k;
+                        if(solveSudoku(i, j+1, grid)) return true;
+                        grid[i][j] = '.';
+                    }
+                }
                 return false;
+            }
+        }
         return true;
     }
 
-
+    boolean isValid(int row, int col, char k, char[][] grid){
+        int blkrow = (row / 3) * 3, blkcol = (col / 3) * 3;
+        for(int i=0; i<9; i++)
+            if(grid[row][i] == k || grid[i][col] == k || grid[blkrow +i/3][blkcol+i%3] == k)
+                return false;
+        return true;
+    }
 }

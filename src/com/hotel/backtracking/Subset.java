@@ -9,9 +9,9 @@ public class Subset {
     public static void main(String[] args){
         Subset s = new Subset();
         int[] nums = {1,2,3};
-        int[] nums1 = {1,2,2};
+//        int[] nums1 = {1,2,2};
 //        System.out.println(s.subsets(nums));
-        System.out.println(s.subsetsWithDup(nums1));
+        System.out.println(s.subsetsWithDup(nums));
     }
 
     public List<String> subsets(int[] nums) {

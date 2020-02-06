@@ -75,7 +75,7 @@ public class GameOn {
                 .hostnameVerifier(hostnameVerifier).sslContext(ctx).build();
 	}
 	private static JSONArray readFromFile() throws IOException {
-		InputStream is = new FileInputStream("/home/ijaz/Documents/test.json");
+		InputStream is = new FileInputStream("/home/ijaz/Documents/tvregion.json");
 		BufferedReader buf = new BufferedReader(new InputStreamReader(is));
 		String line = buf.readLine();
 		StringBuilder sb = new StringBuilder();

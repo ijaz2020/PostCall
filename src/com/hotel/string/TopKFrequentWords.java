@@ -8,7 +8,7 @@ public class TopKFrequentWords {
     public static void main(String[] args){
         TopKFrequentWords t = new TopKFrequentWords();
         String[] words = {"i", "love", "leetcode", "i", "love", "coding"};
-        System.out.println(t.topKFrequent(words, 2));
+        System.out.println(t.topKFrequent(words, 3));
     }
 
     public List<String> topKFrequent(String[] words, int k) {
@@ -21,8 +21,8 @@ public class TopKFrequentWords {
             priorityQueue.offer(entry);
             if(priorityQueue.size() > k) priorityQueue.poll();
         }
-        List<String> result = new ArrayList<>();
-        for (Map.Entry<String, Integer> entry : priorityQueue) result.add(0, entry.getKey());
+        LinkedList<String> result = new LinkedList<>();
+        for (Map.Entry<String, Integer> entry : priorityQueue) result.offerFirst( entry.getKey());
         return result;
     }
 }

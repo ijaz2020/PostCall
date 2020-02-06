@@ -1,15 +1,24 @@
 package com.hotel.array;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class TopKFrequent {
     public static void main(String[] args){
         TopKFrequent k = new TopKFrequent();
         int[] ints = {5,4,2,5,4,3,2,5,4,5};
-        System.out.println(k.topKFrequent(ints, 2));
+//
+        List<String> comp = new ArrayList();
+        comp.add("anacel");
+        comp.add("betacell");
+        comp.add("centra");
+        comp.add("delta");
+        comp.add("euro");
+        List<String> review = new ArrayList<>();
+        review.add("anacel");
+        review.add("anacel");
+        review.add("betacell");
+        System.out.println(new TopKFrequent().topNCompetitors(5, 2 , comp, 3, review ));
     }
     public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -36,5 +45,46 @@ public class TopKFrequent {
         }
 
         return res;
+    }
+
+    public ArrayList<String> topNCompetitors(int n,
+                                             int top,
+                                             List<String> comp,
+                                             int numReviews,
+                                             List<String> reviews)
+    {
+        List<String> res = new LinkedList<>();
+        if(reviews == null || reviews.size() == 0 || comp == null ||
+                comp.size() == 0) return new ArrayList<>(res);
+        HashMap<String, Integer> freqMap = new HashMap<>();
+        for(int i=0; i<comp.size();i++){
+            freqMap.put(comp.get(i), 0);
+        }
+        for(String c : comp) {
+            for (String review : reviews) {
+                if(review.contains(c))
+                    freqMap.put(c, freqMap.get(c)+1);
+            }
+        }
+
+        List<String>[] bucket = new List[n+1];
+        for(String i :freqMap.keySet()){
+            int freq = freqMap.get(i);
+            if(bucket[freq]==null)
+                bucket[freq] = new LinkedList<>();
+            bucket[freq].add(i);
+        }
+
+        for(int i=bucket.length-1; i>0 && top>0; --i){
+            if(bucket[i]!=null){
+                List<String> list = bucket[i];
+                Collections.sort(list);
+                res.addAll(list);
+                top-= list.size();
+            }
+        }
+
+        return new ArrayList<>(res);
+
     }
 }

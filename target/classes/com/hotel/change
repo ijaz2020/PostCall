@@ -1,1 +1,6 @@
-'a','a','a','b','b','a','a'
+{{1,1,1,0,0,0,0},{1,1,1,1,1,1,0},{0,0,0,0,0,0,0},{1,1,1,0,0,0,0},{1,1,1,1,1,1,1}}
+4
+
+
+Error while extracting response for type [com.talonoutdoor.marketplace.service.plato.dto.Pageable<com.talonoutdoor.marketplace.service.plato.dto.Advertiser>] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.talonoutdoor.marketplace.service.plato.dto.Advertiser` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('SkyBet'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.talonoutdoor.marketplace.service.plato.dto.Advertiser` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('SkyBet')
+ at [Source: (ByteArrayInputStream); line: 1, column: 13] (through reference chain: com.talonoutdoor.marketplace.service.plato.dto.Pageable["content"]->java.util.ArrayList[0])

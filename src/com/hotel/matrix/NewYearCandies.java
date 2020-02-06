@@ -5,6 +5,7 @@ import com.hotel.Utils.PrintUtils;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 public class NewYearCandies {
 
@@ -30,8 +31,8 @@ public class NewYearCandies {
 
     public void arrangeCandyGrid(char[][] candyGrid, int row, int col) {
         char[][] candy = {{SWEET, BITTER}, {BITTER, SWEET}};
-        for (int i = row; i < candyGrid.length; i++) {
-            for (int j = col; j < candyGrid[0].length; j++) {
+        for (int i = 0; i < candyGrid.length; i++) {
+            for (int j = 0; j < candyGrid[0].length; j++) {
                 for (char[] c : candy) {
                     int[][] dirs = {{0, 1}, {1, 0}, {-1, 0}, {0, -1}};
                     for (int[] dir : dirs) {
@@ -48,12 +49,7 @@ public class NewYearCandies {
                                 candyGrid[i][j] = DEFAULT;
                                 candyGrid[row1][col1] = DEFAULT;
                             }
-                            else {
-                                int currCol = col + 1, currRow = row + 1;
-                                if (currCol < candyGrid[0].length) arrangeCandyGrid(candyGrid, 0, currCol);
-                                else if (currRow < candyGrid.length - 1) arrangeCandyGrid(candyGrid, currRow, 0);
-                                else return;
-                            }
+
                         }
                     }
                 }

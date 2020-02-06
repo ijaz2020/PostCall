@@ -1,0 +1,43 @@
+{
+  "content": [
+    "Border",
+    "Central Scotland",
+    "East of England",
+    "London",
+    "Midlands",
+    "North East",
+    "North Scotland",
+    "North West",
+    "South West",
+    "South and South East",
+    "Ulster",
+    "Wales",
+    "West",
+    "Yorkshire"
+  ],
+  "pageable": {
+    "sort": {
+      "unsorted": true,
+      "sorted": false,
+      "empty": true
+    },
+    "pageSize": 2000,
+    "pageNumber": 0,
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalElements": 14,
+  "last": true,
+  "totalPages": 1,
+  "sort": {
+    "unsorted": true,
+    "sorted": false,
+    "empty": true
+  },
+  "numberOfElements": 14,
+  "first": true,
+  "size": 2000,
+  "number": 0,
+  "empty": false
+}

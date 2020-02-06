@@ -1,112 +1,186 @@
+import java.util.HashMap;
 import java.util.Hashtable;
+import java.util.Map;
 
 
 public class LRUCache {
+    public static void main(String[] args) {
+        LRUCache cache = new LRUCache(0 /* capacity */);
 
-    static class DLinkedNode {
+        cache.put(1, 1);
+        cache.put(2, 2);
+        System.out.println(cache.get(1));       // returns 1
+        cache.put(3, 3);    // evicts key 2
+        System.out.println(cache.get(2));       // returns -1 (not found)
+        cache.put(4, 4);    // evicts key 1
+        System.out.println(cache.get(1));       // returns -1 (not found)
+        System.out.println(cache.get(3));       // returns 3
+        System.out.println(cache.get(4));       // returns 4
+    }
+
+    int capacity;
+    Map<Integer, DLinkedList> lruMap = null;
+    DLinkedList head = null, tail = null;
+
+    class DLinkedList {
         int key;
-        int value;
-        DLinkedNode pre;
-        DLinkedNode post;
+        int val;
+        DLinkedList pre;
+        DLinkedList post;
+
+        DLinkedList(int val, int key) {
+            this.val = val;
+            this.key = key;
+        }
     }
 
-    /**
-     * Always add the new node right after head;
-     */
-    private void addNode(DLinkedNode node) {
-
-        node.pre = head;
-        node.post = head.post;
-
-        head.post.pre = node;
-        head.post = node;
-    }
-
-    /**
-     * Remove an existing node from the linked list.
-     */
-    private void removeNode(DLinkedNode node){
-        DLinkedNode pre = node.pre;
-        DLinkedNode post = node.post;
-
+    private void removeNode(DLinkedList node) {
+        if(node ==null) return;
+        DLinkedList pre = node.pre;
+        DLinkedList post = node.post;
         pre.post = post;
         post.pre = pre;
     }
 
-    /**
-     * Move certain node in between to the head.
-     */
-    private void moveToHead(DLinkedNode node){
-        this.removeNode(node);
-        this.addNode(node);
+    private DLinkedList removeTail() {
+        DLinkedList node = tail.pre;
+        removeNode(node);
+        return node;
     }
 
-    // pop the current tail.
-    private DLinkedNode popTail(){
-        DLinkedNode res = tail.pre;
-        this.removeNode(res);
-        return res;
+    private void addNode(DLinkedList node){
+        if(node ==null) return;
+        DLinkedList second = head.post;
+        second.pre = node;
+        head.post = node;
+        node.pre = head;
+        node.post = second;
     }
 
-    private Hashtable<Integer, DLinkedNode>
-            cache = new Hashtable<Integer, DLinkedNode>();
-    private int count;
-    private int capacity;
-    private DLinkedNode head, tail;
+    private void makeItTop(DLinkedList node) {
+        removeNode(node);
+        addNode(node);
+    }
 
     public LRUCache(int capacity) {
-        this.count = 0;
         this.capacity = capacity;
-
-        head = new DLinkedNode();
-        head.pre = null;
-
-        tail = new DLinkedNode();
-        tail.post = null;
-
+        head = new DLinkedList(-1, -1);
+        tail = new DLinkedList(-1, -1);
         head.post = tail;
         tail.pre = head;
+        lruMap = new HashMap<>();
     }
 
     public int get(int key) {
-
-        DLinkedNode node = cache.get(key);
-        if(node == null){
-            return -1; // should raise exception here.
-        }
-
-        // move the accessed node to the head;
-        this.moveToHead(node);
-
-        return node.value;
+        DLinkedList node = lruMap.get(key);
+        if (node == null) return -1;
+        makeItTop(node);
+        return node.val;
     }
-
 
     public void put(int key, int value) {
-        DLinkedNode node = cache.get(key);
+        DLinkedList node = lruMap.get(key);
+        if (node != null) {
+            node.val = value;
+            makeItTop(node);
+            return;
+        }
+        if (lruMap.size() == capacity) {
+            DLinkedList tail = removeTail();
+            lruMap.remove(tail.key);
+        }
+        node = new DLinkedList(value, key);
+        lruMap.put(key, node);
+        addNode(node);
+    }
 
-        if(node == null){
+  /*  private Map<Integer, DLinkNode> cache;
+    DLinkNode tail = null;
+    DLinkNode head = null;
+    int capacity;
 
-            DLinkedNode newNode = new DLinkedNode();
-            newNode.key = key;
-            newNode.value = value;
+    public LRUCache(int capacity) {
+        cache = new HashMap<Integer, DLinkNode>();
+        this.capacity = capacity;
+    }
 
-            this.cache.put(key, newNode);
-            this.addNode(newNode);
+    public int get(int key) {
+        if (cache.containsKey(key)) {
+            DLinkNode target = cache.get(key);
+            int value = target.value;
+            target.update();
+            return value;
+        } else return -1;
+    }
 
-            ++count;
-
-            if(count > capacity){
-                // pop the tail
-                DLinkedNode tail = this.popTail();
-                this.cache.remove(tail.key);
-                --count;
+    public void put(int key, int value) {
+        if (cache.containsKey(key)) {
+            DLinkNode target = cache.get(key);
+            target.value = value;
+            target.update();
+        } else {
+            if (capacity == 0) return;
+            if (cache.size() == capacity) {
+                cache.remove(head.key);
+                head.removeFromHead();
             }
-        }else{
-            // update the value.
-            node.value = value;
-            this.moveToHead(node);
+            DLinkNode newNode = new DLinkNode(key, value);
+            newNode.append();
+            cache.put(key, newNode);
         }
     }
 
+    class DLinkNode {
+        int key;
+        int value;
+        DLinkNode left = null;
+        DLinkNode right = null;
+
+        public DLinkNode(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+
+        // remove head from list and update head reference.
+        private void removeFromHead() {
+            // if 'this' is the only node, set both head and tail to null.
+            if (tail == this) {
+                head = null;
+                tail = null;
+            } else {
+                head = this.right;
+                head.left = null;
+            }
+        }
+
+        private void update() {
+            // no need to update if accessing the most revently used value.
+            if (tail == this) return;
+            else {
+                // remove from current postion and update nodes (if any) on both sides.
+                if (this != head) {
+                    this.left.right = this.right;
+                } else {
+                    head = this.right;
+                }
+                this.right.left = this.left;
+                // append to tail.
+                this.append();
+            }
+        }
+
+        private void append() {
+            // inserting the first node.
+            if (tail == null) {
+                head = this;
+                tail = this;
+                // appned as tail and update tail reference.
+            } else {
+                this.right = null;
+                this.left = tail;
+                tail.right = this;
+                tail = this;
+            }
+        }
+    }*/
 }

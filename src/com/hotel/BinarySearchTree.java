@@ -1,27 +1,35 @@
 package com.hotel;
 
+import com.hotel.tree.TreeNode;
+import com.hotel.tree.TreeVisualizer;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class BinarySearchTree {
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
+public class BinarySearchTree implements TreeVisualizer.Visualized {
 
-        TreeNode(int x) {
-            val = x;
-        }
+    @Override
+    public TreeVisualizer.Visualized getLeft() {
+        return this.root.left;
     }
 
-    TreeNode root;
+    @Override
+    public TreeVisualizer.Visualized getRight() {
+        return this.root.right;
+    }
+
+    @Override
+    public String getValue() {
+        return String.valueOf(this.root.val);
+    }
+    public TreeNode root;
 
     // Constructor
-    BinarySearchTree() {
+    public BinarySearchTree() {
         root = null;
     }
 
-    void insert(int key) {
+    public void insert(int key) {
         root = insertRec(root, key);
     }
 
@@ -63,7 +71,6 @@ public class BinarySearchTree {
 
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
-        List<Integer> a = new ArrayList<>();
 //        10,5,15,3,7,null,18
         tree.insert(50);
         tree.insert(30);

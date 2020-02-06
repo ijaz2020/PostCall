@@ -2,44 +2,273 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="119e766e-36ca-4e00-b302-3f3aa3c11f3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_14_ea_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_14_ea_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_14_ea_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_14_ea_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_14_ea_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_14_ea_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_14_ea_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_mac_14_ea_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_14_ea_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_mac_14_ea_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/game_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/Utils/PrintUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/DecompressionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/GridIlumination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/NQueenII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/NQueenOL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/Subset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/change" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/ShortestPathToVisitAllNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/NewYearCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/NewYearCandiesLR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/NewYearCandy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/ShortestPathGridWithObstacles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hotel/numbers/TwoNonZeroInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_graphstream_gs_core_2_0_0_beta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_graphstream_mbox2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_graphstream_pherd_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/BitManipulation/MagicSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/CandyCrush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/Math/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/Math/Max69.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/Trie/LongestWordInDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/Trie/WordDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/Trie/WordFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/Trie/WordSearchII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/AngryNeighboursAmazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/CountTinyPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/FindDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/MutateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/RankArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/RestaurantFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/array/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/ConstructWordUsingDice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/WordSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/dp/LongDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/AwesomeDietExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/CityWithThreshhold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/FriendsCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/NumberOfOperationToMakeNetworkConnected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/ReduntantEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/ReduntantEdgeII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/graph/ShortestDistanceFromAllBuildings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/greedy/Dota2SenateWinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/greedy/PartitionLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/greedy/interval/FindMinArrowShoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/greedy/interval/InsertInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/greedy/interval/OverlappingInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/map/SplitArrayToConsecutiveSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/RotateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/ShortestBridgee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/matrix/ToeplitzMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/stack/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/string/BreakPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/string/LongestPalidromeSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/string/MergeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/string/PrintStringVertically.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/string/WeakestRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/tree/IOSFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/tree/InorderSuccessorTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/tree/RemovesLeaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/tree/TreeVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hotel/tree/ZigZagTreePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/AwesomeDiet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/CandyCrush.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/LongDriveSalman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/LongDriveVruddhi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/NewYearCandies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/SaikrishnaNewYearCandy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/awesomeDietSaiKrishna.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/candycrushSaiKrishna.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/kapilAD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/kapilcandy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/brand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/demographic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/tvregion.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PostCall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PostCall.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PostCall/META-INF/PostCall.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/PostCall.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/NewYearCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/NewYearCandies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/InOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/InOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/MergeIntervel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/greedy/interval/MergeIntervel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/RottinOranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/RottinOranges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/TwoCityScheduling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/TwoCityScheduling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/Utils/PrintUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/Utils/PrintUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/array/TopKFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/array/TopKFrequent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/backtracking/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/backtracking/Subset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/backtracking/Subset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/change" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/change" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/game/GameOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/game/GameOn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/graph/ShortestPathToVisitAllNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/graph/ShortestPathToVisitAllNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/matrix/NewYearCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/matrix/NewYearCandies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/matrix/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/matrix/SudokuSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/string/TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/string/TopKFrequentWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hotel/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hotel/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KingToQueen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/KingToQueen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUCache$DLinkedNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductElem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProductElem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortBigDecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortBigDecimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortByFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortByFrequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/EmptyPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/code/EmptyPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/HorizontalPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/code/HorizontalPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/NewYearCandies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/code/NewYearCandies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/code/Pattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/VerticalPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/code/VerticalPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/AddDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/AddDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Anagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/BalancedStringSplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/BalancedStringSplit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/BasicCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/BasicCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/BinaryGap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/BinaryGap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/BinarySearchTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/BitManipulation/Complement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/BitManipulation/Complement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Bricks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Bricks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/BuyStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/BuyStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/CarPooling.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/CarPooling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/CheckBracesIsReduntant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/CheckBracesIsReduntant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/CheckPossiblility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/CheckPossiblility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/CountBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/CountBits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/CountElementOccurence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/CountElementOccurence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/CountServersThatCommunicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/CountServersThatCommunicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/CountnonUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/CountnonUnique.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/CourseSchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/CourseSchedule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/DecodeStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/DecodeStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/DecodeWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/DecodeWays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/DiStringmatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/DiStringmatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/DivideArrayToConsecutiveNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/DivideArrayToConsecutiveNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/DominantIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/DominantIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/ElementThatAppearsOnceInSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/ElementThatAppearsOnceInSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Exor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Exor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/FindAllDisappearedInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/FindAllDisappearedInArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/FindComplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/FindComplement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/FindInRotatedSortedII.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/FindInRotatedSortedII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/FirstLastOccurence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/FirstLastOccurence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/FizzBuzz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/FloodFill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/FloodFill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/GCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/GCD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/GFG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/GFG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/GradeStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/GradeStudents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/HappyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/HappyNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/HouseRobber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/HouseRobber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/HttpURLConnectionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/HttpURLConnectionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/InOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/InOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/IncreasingAndDecreasing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/IncreasingAndDecreasing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/IncreasingBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/IncreasingBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/InsertComma.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/InsertComma.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/InterSectionNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/InterSectionNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/IsomorphicString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/IsomorphicString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/KnightMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/KnightMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/LexographicallyNext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/LexographicallyNext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/LinkedList/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/LinkedList/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/LongPresses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/LongPresses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/LongestIncreasingSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/LongestIncreasingSubsequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/LongestOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/LongestOnes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/LongestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MajorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Math/AddTwoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Math/AddTwoList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MaxNumberOfBaloons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MaxNumberOfBaloons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MaxProduct3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MaxProduct3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MaxSumDivBy3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MaxSumDivBy3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MergeIntervel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MergeKSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MergeKSortedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MergeSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MergeSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MinAbsDiffernce$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MinAbsDiffernce$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MinAbsDiffernce$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MinAbsDiffernce$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MinAbsDiffernce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MinAbsDiffernce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MinAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MinAnagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MinJumpToReachEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MinJumpToReachEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MinStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MisingNo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MisingNo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MountainIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MountainIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MultiplyStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MultiplyStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendarTwo$MyCalendarThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendarTwo$MyCalendarThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendarTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/MyCalendarTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/NReapeatedElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/NReapeatedElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/NextGreaterElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/NextGreaterElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/NonDecreasing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/NonDecreasing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/NotPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/NotPrime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/NumArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/NumWithoutConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/NumWithoutConsecutiveOnes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Palindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/PascalTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/PascalTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RabbitInforest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RabbitInforest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Rangesum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Rangesum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RankCalculation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RankCalculation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RegexMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RegexMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RemoveAdjacentDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RemoveAdjacentDuplicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RemoveDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RemoveDuplicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RemoveNthNodeFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RemoveNthNodeFromEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RemoveParantheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RemoveParantheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RepeatedStringPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RepeatedStringPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RescueBoat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RescueBoat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/RottinOranges.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/RottinOranges.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Search2DMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Search2DMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SearchRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SearchRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SetMismatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SetMismatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/ShortestDistanceToCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/ShortestDistanceToCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SinglePresenceSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SinglePresenceSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SmallNLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SmallNLargest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Smallestfromleaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Smallestfromleaf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Solution2$EmpCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Solution2$EmpCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SortParity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SortParity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SortedSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SortedSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SplitCandy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SplitCandy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Subsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Subsequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Subsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Sudoku.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Sudoku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/SumOfRootToLeafBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/SumOfRootToLeafBinary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TelePorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TelePorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TicTocGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TicTocGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TitleToNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TitleToNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TopologicalSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TotalContinuousSubArrayK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TotalContinuousSubArrayK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Trie/MagicDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Trie/MagicDictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Trie/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Trie/Trie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Trie/TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Trie/TrieNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TwoCityScheduling.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TwoCityScheduling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TwoDMatrixSum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TwoDMatrixSum$KadaneResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TwoDMatrixSum$KadaneResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TwoDMatrixSum$Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TwoDMatrixSum$Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TwoDMatrixSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TwoDMatrixSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/TwoSumWith60Pairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/TwoSumWith60Pairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/UniquePath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/UniquePath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/Utils/PrintUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/Utils/PrintUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/VerticalOrderingBt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/VerticalOrderingBt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/array/DecompressionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/array/DecompressionList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/array/DuplicateZeros.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/array/DuplicateZeros.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/array/KthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/array/KthLargest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/array/RevealDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/array/RevealDeck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/array/TopKFrequent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/array/TopKFrequent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/GridIlumination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/GridIlumination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/LetterCasePermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/LetterCasePermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/NQueenII.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/NQueenII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/NQueenOL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/NQueenOL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/NQueens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/NQueens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/Subset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/backtracking/Subset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/change" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/change" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/findCommonCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/findCommonCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/game/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/game/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/game/GameOn$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/game/GameOn$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/game/GameOn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/game/GameOn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/game/RequestCaller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/game/RequestCaller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/graph/AwfulDiet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/graph/AwfulDiet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/graph/CourseScheduleII.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/graph/CourseScheduleII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/graph/ShortestPathToVisitAllNodes$Tuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/graph/ShortestPathToVisitAllNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/graph/ShortestPathToVisitAllNodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses$Solution$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses$Solution$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/isValidParantheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/map/WatchedVideosFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/map/WatchedVideosFriends.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/matrix/NewYearCandies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/matrix/NewYearCandies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/matrix/NewYearCandiesLR.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/matrix/NewYearCandiesLR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/matrix/ShortestPathGridWithObstacles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/matrix/ShortestPathGridWithObstacles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/matrix/SudokuSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/matrix/SudokuSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/minRemoveToMakeInvalid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/minRemoveToMakeInvalid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/numbers/AddictiveNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/numbers/AddictiveNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/numbers/TwoNonZeroInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/numbers/TwoNonZeroInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/priorityQueue/KthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/priorityQueue/KthLargest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/stack/GenerateParanthesisScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/stack/GenerateParanthesisScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/string/AlphaToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/string/AlphaToInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/string/LargeGroupPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/string/LargeGroupPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/string/SortCharacterByFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/string/SortCharacterByFrequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/string/StringCompression.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/string/StringCompression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/string/TopKFrequentWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/string/TopKFrequentWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/tree/MaximumTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/tree/MaximumTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/python/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/python/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +292,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -70,6 +301,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="ced0de65-3738-4744-9419-57e701d12cc5" />
   <component name="ProjectId" id="1WALvFIRC8zX91J9CWkOMjxZ3rh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -82,15 +314,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.14471781" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Application.ShortestPathToVisitAllNodes">
-    <configuration name="NewYearCandies (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.NewYearCandies" />
+  <component name="RunManager" selected="Application.LongestWordInDictionary">
+    <configuration name="LongestWordInDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.Trie.LongestWordInDictionary" />
       <module name="PostCall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code.*" />
+          <option name="PATTERN" value="com.hotel.Trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +335,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewYearCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.matrix.NewYearCandies" />
+    <configuration name="TopKFrequentWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.string.TopKFrequentWords" />
       <module name="PostCall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hotel.matrix.*" />
+          <option name="PATTERN" value="com.hotel.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +349,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.backtracking.Permutation" />
+    <configuration name="WordDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.Trie.WordDictionary" />
       <module name="PostCall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hotel.backtracking.*" />
+          <option name="PATTERN" value="com.hotel.Trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +363,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathGridWithObstacles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.matrix.ShortestPathGridWithObstacles" />
+    <configuration name="WordFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.Trie.WordFilter" />
       <module name="PostCall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hotel.matrix.*" />
+          <option name="PATTERN" value="com.hotel.Trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +377,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathToVisitAllNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hotel.graph.ShortestPathToVisitAllNodes" />
+    <configuration name="WordSearchII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.Trie.WordSearchII" />
       <module name="PostCall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hotel.graph.*" />
+          <option name="PATTERN" value="com.hotel.Trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,21 +390,43 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="PostCall" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.NewYearCandies" />
-      <item itemvalue="Application.Permutation" />
-      <item itemvalue="Application.ShortestPathGridWithObstacles" />
-      <item itemvalue="Application.NewYearCandies (1)" />
-      <item itemvalue="Application.ShortestPathToVisitAllNodes" />
+      <item itemvalue="Application.TopKFrequentWords" />
+      <item itemvalue="Application.WordDictionary" />
+      <item itemvalue="Application.WordFilter" />
+      <item itemvalue="Application.WordSearchII" />
+      <item itemvalue="Application.LongestWordInDictionary" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShortestPathToVisitAllNodes" />
-        <item itemvalue="Application.NewYearCandies" />
-        <item itemvalue="Application.NewYearCandies (1)" />
-        <item itemvalue="Application.ShortestPathGridWithObstacles" />
-        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.LongestWordInDictionary" />
+        <item itemvalue="Application.WordSearchII" />
+        <item itemvalue="Application.WordFilter" />
+        <item itemvalue="Application.WordDictionary" />
+        <item itemvalue="Application.TopKFrequentWords" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +455,19 @@
       <workItem from="1578587682815" duration="7477000" />
       <workItem from="1578657797214" duration="2609000" />
       <workItem from="1578661132426" duration="2536000" />
-      <workItem from="1578664255307" duration="54925000" />
+      <workItem from="1578664255307" duration="74644000" />
+      <workItem from="1579171674407" duration="3903000" />
+      <workItem from="1579179170060" duration="437000" />
+      <workItem from="1579179678908" duration="10252000" />
+      <workItem from="1579335998642" duration="62000" />
+      <workItem from="1579336089401" duration="16656000" />
+      <workItem from="1579505139096" duration="2866000" />
+      <workItem from="1579519032723" duration="8974000" />
+      <workItem from="1579591099136" duration="20490000" />
+      <workItem from="1579857911217" duration="1693000" />
+      <workItem from="1579867471014" duration="33280000" />
+      <workItem from="1580489053323" duration="31527000" />
+      <workItem from="1580816775479" duration="6099000" />
     </task>
     <servers />
   </component>
@@ -205,154 +475,298 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="271" y="23" key="#Java_Type_Renderers" timestamp="1578969546394">
-      <screen x="41" y="23" width="1399" height="877" />
-    </state>
-    <state x="237" y="23" key="#Java_Type_Renderers/0.23.1440.834@0.23.1440.834" timestamp="1578734640029" />
-    <state x="271" y="23" key="#Java_Type_Renderers/41.23.1399.877@41.23.1399.877" timestamp="1578969546394" />
-    <state x="999" y="432" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1578988826549">
+    <state x="407" y="191" key="#Customize_Data_Views" timestamp="1579417126948">
       <screen x="43" y="23" width="1397" height="877" />
     </state>
+    <state x="407" y="191" key="#Customize_Data_Views/43.23.1397.877@43.23.1397.877" timestamp="1579417126948" />
+    <state x="340" y="128" key="#Inspections" timestamp="1579179207136">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state x="340" y="128" key="#Inspections/41.23.1399.877@41.23.1399.877" timestamp="1579179207136" />
+    <state x="397" y="0" key="#Java_Type_Renderers" timestamp="1580376769570">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="0" key="#Java_Type_Renderers/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580376769570" />
+    <state x="397" y="0" key="#Java_Type_Renderers/0.0.1440.900@0.0.1440.900" timestamp="1580023524106" />
+    <state x="237" y="23" key="#Java_Type_Renderers/0.23.1440.834@0.23.1440.834" timestamp="1578734640029" />
+    <state x="271" y="23" key="#Java_Type_Renderers/41.23.1399.877@41.23.1399.877" timestamp="1578969546394" />
+    <state x="331" y="23" key="#Java_Type_Renderers/43.23.1397.877@43.23.1397.877" timestamp="1579437281754" />
+    <state x="355" y="128" key="#Project_Structure" timestamp="1579519176284">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state x="355" y="128" key="#Project_Structure/43.23.1397.877@43.23.1397.877" timestamp="1579519176284" />
+    <state x="985" y="420" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1580752921120">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="985" y="420" key="#com.intellij.debugger.actions.ViewTextAction/0.0.1440.900@0.0.1440.900" timestamp="1580752921120" />
     <state x="998" y="432" key="#com.intellij.debugger.actions.ViewTextAction/40.23.1400.877@40.23.1400.877" timestamp="1578886570579" />
-    <state x="998" y="432" key="#com.intellij.debugger.actions.ViewTextAction/41.23.1399.877@41.23.1399.877" timestamp="1578977264240" />
-    <state x="999" y="432" key="#com.intellij.debugger.actions.ViewTextAction/43.23.1397.877@43.23.1397.877" timestamp="1578988826549" />
+    <state x="998" y="432" key="#com.intellij.debugger.actions.ViewTextAction/41.23.1399.877@41.23.1399.877" timestamp="1579151352264" />
+    <state x="999" y="432" key="#com.intellij.debugger.actions.ViewTextAction/43.23.1397.877@43.23.1397.877" timestamp="1580240835723" />
     <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578661927125">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.834@0.23.1440.834" timestamp="1578661927125" />
+    <state x="527" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1580023305785">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="527" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1580023305785" />
+    <state x="554" y="174" key="#com.intellij.ide.util.MemberChooser/43.23.1397.877@43.23.1397.877" timestamp="1579436886632" />
+    <state x="493" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579417198801">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state x="493" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog/43.23.1397.877@43.23.1397.877" timestamp="1579417198801" />
+    <state x="575" y="370" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579240458402">
+      <screen x="43" y="23" width="1397" height="877" />
+    </state>
+    <state x="575" y="370" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/43.23.1397.877@43.23.1397.877" timestamp="1579240458402" />
     <state x="513" y="351" width="455" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578983651279">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="513" y="351" width="455" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/40.23.1400.877@40.23.1400.877" timestamp="1578983651279" />
-    <state x="510" y="160" key="#xdebugger.evaluate" timestamp="1578847485405">
-      <screen x="41" y="23" width="1399" height="877" />
+    <state x="294" y="225" key="#org.jetbrains.debugger.memory.view.InstancesWindow" timestamp="1579417573839">
+      <screen x="43" y="23" width="1397" height="877" />
     </state>
+    <state x="294" y="225" key="#org.jetbrains.debugger.memory.view.InstancesWindow/43.23.1397.877@43.23.1397.877" timestamp="1579417573839" />
+    <state x="483" y="141" key="#xdebugger.evaluate" timestamp="1579667113046">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="483" y="141" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1579667113046" />
     <state x="483" y="153" key="#xdebugger.evaluate/0.23.1440.834@0.23.1440.834" timestamp="1578661162344" />
     <state x="510" y="160" key="#xdebugger.evaluate/41.23.1399.877@41.23.1399.877" timestamp="1578847485405" />
+    <state width="487" height="466" key="DebuggerActiveHint" timestamp="1579151452138">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="487" height="466" key="DebuggerActiveHint/41.23.1399.877@41.23.1399.877" timestamp="1579151452138" />
     <state x="100" y="123" width="1240" height="634" key="DiffContextDialog" timestamp="1578721851430">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="100" y="123" width="1240" height="634" key="DiffContextDialog/0.23.1440.834@0.23.1440.834" timestamp="1578721851430" />
-    <state width="1357" height="277" key="GridCell.Tab.0.bottom" timestamp="1578988814317">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1578734726296" />
-    <state width="1357" height="277" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1578886839311" />
-    <state width="1357" height="277" key="GridCell.Tab.0.bottom/41.23.1399.877@41.23.1399.877" timestamp="1578980600768" />
-    <state width="1357" height="277" key="GridCell.Tab.0.bottom/43.23.1397.877@43.23.1397.877" timestamp="1578988814317" />
-    <state width="1357" height="277" key="GridCell.Tab.0.center" timestamp="1578988814316">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1578734726295" />
-    <state width="1357" height="277" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1578886839310" />
-    <state width="1357" height="277" key="GridCell.Tab.0.center/41.23.1399.877@41.23.1399.877" timestamp="1578980600767" />
-    <state width="1357" height="277" key="GridCell.Tab.0.center/43.23.1397.877@43.23.1397.877" timestamp="1578988814316" />
-    <state width="1357" height="277" key="GridCell.Tab.0.left" timestamp="1578988814316">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1578734726294" />
-    <state width="1357" height="277" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1578886839309" />
-    <state width="1357" height="277" key="GridCell.Tab.0.left/41.23.1399.877@41.23.1399.877" timestamp="1578980600767" />
-    <state width="1357" height="277" key="GridCell.Tab.0.left/43.23.1397.877@43.23.1397.877" timestamp="1578988814316" />
-    <state width="1357" height="277" key="GridCell.Tab.0.right" timestamp="1578988814317">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1578734726295" />
-    <state width="1357" height="277" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1578886839310" />
-    <state width="1357" height="277" key="GridCell.Tab.0.right/41.23.1399.877@41.23.1399.877" timestamp="1578980600768" />
-    <state width="1357" height="277" key="GridCell.Tab.0.right/43.23.1397.877@43.23.1397.877" timestamp="1578988814317" />
-    <state width="1357" height="277" key="GridCell.Tab.1.bottom" timestamp="1578988814515">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
-    <state width="1357" height="277" key="GridCell.Tab.1.bottom/40.23.1400.877@40.23.1400.877" timestamp="1578886839233" />
-    <state width="1357" height="277" key="GridCell.Tab.1.bottom/41.23.1399.877@41.23.1399.877" timestamp="1578980600769" />
-    <state width="1357" height="277" key="GridCell.Tab.1.bottom/43.23.1397.877@43.23.1397.877" timestamp="1578988814515" />
-    <state width="1357" height="277" key="GridCell.Tab.1.center" timestamp="1578988814515">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.1.center/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
-    <state width="1357" height="277" key="GridCell.Tab.1.center/40.23.1400.877@40.23.1400.877" timestamp="1578886839232" />
-    <state width="1357" height="277" key="GridCell.Tab.1.center/41.23.1399.877@41.23.1399.877" timestamp="1578980600769" />
-    <state width="1357" height="277" key="GridCell.Tab.1.center/43.23.1397.877@43.23.1397.877" timestamp="1578988814515" />
-    <state width="1357" height="277" key="GridCell.Tab.1.left" timestamp="1578988814514">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.1.left/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
-    <state width="1357" height="277" key="GridCell.Tab.1.left/40.23.1400.877@40.23.1400.877" timestamp="1578886839232" />
-    <state width="1357" height="277" key="GridCell.Tab.1.left/41.23.1399.877@41.23.1399.877" timestamp="1578980600769" />
-    <state width="1357" height="277" key="GridCell.Tab.1.left/43.23.1397.877@43.23.1397.877" timestamp="1578988814514" />
-    <state width="1357" height="277" key="GridCell.Tab.1.right" timestamp="1578988814515">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.1.right/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
-    <state width="1357" height="277" key="GridCell.Tab.1.right/40.23.1400.877@40.23.1400.877" timestamp="1578886839232" />
-    <state width="1357" height="277" key="GridCell.Tab.1.right/41.23.1399.877@41.23.1399.877" timestamp="1578980600769" />
-    <state width="1357" height="277" key="GridCell.Tab.1.right/43.23.1397.877@43.23.1397.877" timestamp="1578988814515" />
-    <state width="1357" height="277" key="GridCell.Tab.2.bottom" timestamp="1578988814239">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.2.bottom/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
-    <state width="1357" height="277" key="GridCell.Tab.2.bottom/40.23.1400.877@40.23.1400.877" timestamp="1578886839234" />
-    <state width="1357" height="277" key="GridCell.Tab.2.bottom/41.23.1399.877@41.23.1399.877" timestamp="1578980600771" />
-    <state width="1357" height="277" key="GridCell.Tab.2.bottom/43.23.1397.877@43.23.1397.877" timestamp="1578988814239" />
-    <state width="1357" height="277" key="GridCell.Tab.2.center" timestamp="1578988814239">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.2.center/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
-    <state width="1357" height="277" key="GridCell.Tab.2.center/40.23.1400.877@40.23.1400.877" timestamp="1578886839233" />
-    <state width="1357" height="277" key="GridCell.Tab.2.center/41.23.1399.877@41.23.1399.877" timestamp="1578980600770" />
-    <state width="1357" height="277" key="GridCell.Tab.2.center/43.23.1397.877@43.23.1397.877" timestamp="1578988814239" />
-    <state width="1357" height="277" key="GridCell.Tab.2.left" timestamp="1578988814239">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.2.left/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
-    <state width="1357" height="277" key="GridCell.Tab.2.left/40.23.1400.877@40.23.1400.877" timestamp="1578886839233" />
-    <state width="1357" height="277" key="GridCell.Tab.2.left/41.23.1399.877@41.23.1399.877" timestamp="1578980600770" />
-    <state width="1357" height="277" key="GridCell.Tab.2.left/43.23.1397.877@43.23.1397.877" timestamp="1578988814239" />
-    <state width="1357" height="277" key="GridCell.Tab.2.right" timestamp="1578988814239">
-      <screen x="43" y="23" width="1397" height="877" />
-    </state>
-    <state width="1398" height="243" key="GridCell.Tab.2.right/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
-    <state width="1357" height="277" key="GridCell.Tab.2.right/40.23.1400.877@40.23.1400.877" timestamp="1578886839234" />
-    <state width="1357" height="277" key="GridCell.Tab.2.right/41.23.1399.877@41.23.1399.877" timestamp="1578980600771" />
-    <state width="1357" height="277" key="GridCell.Tab.2.right/43.23.1397.877@43.23.1397.877" timestamp="1578988814239" />
-    <state x="458" y="178" key="SettingsEditor" timestamp="1578977245087">
+    <state x="715" y="246" key="FileChooserDialogImpl" timestamp="1579179596964">
       <screen x="41" y="23" width="1399" height="877" />
     </state>
+    <state x="715" y="246" key="FileChooserDialogImpl/41.23.1399.877@41.23.1399.877" timestamp="1579179596964" />
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom" timestamp="1580895492703">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580895492703" />
+    <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1578734726296" />
+    <state width="1357" height="277" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1578886839311" />
+    <state width="1357" height="305" key="GridCell.Tab.0.bottom/41.23.1399.877@41.23.1399.877" timestamp="1580235125387" />
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524265" />
+    <state width="1398" height="322" key="GridCell.Tab.0.bottom/43.23.1397.877@43.23.1397.877" timestamp="1580641823678" />
+    <state width="1398" height="275" key="GridCell.Tab.0.center" timestamp="1580895492698">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580895492698" />
+    <state width="1398" height="243" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1578734726295" />
+    <state width="1357" height="277" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1578886839310" />
+    <state width="1357" height="305" key="GridCell.Tab.0.center/41.23.1399.877@41.23.1399.877" timestamp="1580235125386" />
+    <state width="1398" height="275" key="GridCell.Tab.0.center/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524262" />
+    <state width="1398" height="322" key="GridCell.Tab.0.center/43.23.1397.877@43.23.1397.877" timestamp="1580641823677" />
+    <state width="1398" height="275" key="GridCell.Tab.0.left" timestamp="1580895492697">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580895492696" />
+    <state width="1398" height="243" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1578734726294" />
+    <state width="1357" height="277" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1578886839309" />
+    <state width="1357" height="305" key="GridCell.Tab.0.left/41.23.1399.877@41.23.1399.877" timestamp="1580235125384" />
+    <state width="1398" height="275" key="GridCell.Tab.0.left/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524259" />
+    <state width="1398" height="322" key="GridCell.Tab.0.left/43.23.1397.877@43.23.1397.877" timestamp="1580641823676" />
+    <state width="1398" height="275" key="GridCell.Tab.0.right" timestamp="1580895492699">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580895492699" />
+    <state width="1398" height="243" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1578734726295" />
+    <state width="1357" height="277" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1578886839310" />
+    <state width="1357" height="305" key="GridCell.Tab.0.right/41.23.1399.877@41.23.1399.877" timestamp="1580235125387" />
+    <state width="1398" height="275" key="GridCell.Tab.0.right/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524263" />
+    <state width="1398" height="322" key="GridCell.Tab.0.right/43.23.1397.877@43.23.1397.877" timestamp="1580641823677" />
+    <state width="1398" height="275" key="GridCell.Tab.1.bottom" timestamp="1580895492705">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580895492705" />
+    <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
+    <state width="1357" height="277" key="GridCell.Tab.1.bottom/40.23.1400.877@40.23.1400.877" timestamp="1578886839233" />
+    <state width="1357" height="305" key="GridCell.Tab.1.bottom/41.23.1399.877@41.23.1399.877" timestamp="1580235125240" />
+    <state width="1398" height="275" key="GridCell.Tab.1.bottom/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524447" />
+    <state width="1398" height="322" key="GridCell.Tab.1.bottom/43.23.1397.877@43.23.1397.877" timestamp="1580641823939" />
+    <state width="1398" height="275" key="GridCell.Tab.1.center" timestamp="1580895492704">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1580895492704" />
+    <state width="1398" height="243" key="GridCell.Tab.1.center/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
+    <state width="1357" height="277" key="GridCell.Tab.1.center/40.23.1400.877@40.23.1400.877" timestamp="1578886839232" />
+    <state width="1357" height="305" key="GridCell.Tab.1.center/41.23.1399.877@41.23.1399.877" timestamp="1580235125240" />
+    <state width="1398" height="275" key="GridCell.Tab.1.center/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524445" />
+    <state width="1398" height="322" key="GridCell.Tab.1.center/43.23.1397.877@43.23.1397.877" timestamp="1580641823938" />
+    <state width="1398" height="275" key="GridCell.Tab.1.left" timestamp="1580895492703">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1580895492703" />
+    <state width="1398" height="243" key="GridCell.Tab.1.left/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
+    <state width="1357" height="277" key="GridCell.Tab.1.left/40.23.1400.877@40.23.1400.877" timestamp="1578886839232" />
+    <state width="1357" height="305" key="GridCell.Tab.1.left/41.23.1399.877@41.23.1399.877" timestamp="1580235125239" />
+    <state width="1398" height="275" key="GridCell.Tab.1.left/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524444" />
+    <state width="1398" height="322" key="GridCell.Tab.1.left/43.23.1397.877@43.23.1397.877" timestamp="1580641823937" />
+    <state width="1398" height="275" key="GridCell.Tab.1.right" timestamp="1580895492704">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580895492704" />
+    <state width="1398" height="243" key="GridCell.Tab.1.right/0.23.1440.834@0.23.1440.834" timestamp="1578734678238" />
+    <state width="1357" height="277" key="GridCell.Tab.1.right/40.23.1400.877@40.23.1400.877" timestamp="1578886839232" />
+    <state width="1357" height="305" key="GridCell.Tab.1.right/41.23.1399.877@41.23.1399.877" timestamp="1580235125240" />
+    <state width="1398" height="275" key="GridCell.Tab.1.right/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524446" />
+    <state width="1398" height="322" key="GridCell.Tab.1.right/43.23.1397.877@43.23.1397.877" timestamp="1580641823939" />
+    <state width="1398" height="275" key="GridCell.Tab.2.bottom" timestamp="1580895492706">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580895492706" />
+    <state width="1398" height="243" key="GridCell.Tab.2.bottom/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
+    <state width="1357" height="277" key="GridCell.Tab.2.bottom/40.23.1400.877@40.23.1400.877" timestamp="1578886839234" />
+    <state width="1357" height="305" key="GridCell.Tab.2.bottom/41.23.1399.877@41.23.1399.877" timestamp="1580235125242" />
+    <state width="1398" height="275" key="GridCell.Tab.2.bottom/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524123" />
+    <state width="1398" height="322" key="GridCell.Tab.2.bottom/43.23.1397.877@43.23.1397.877" timestamp="1580641823603" />
+    <state width="1398" height="275" key="GridCell.Tab.2.center" timestamp="1580895492705">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1580895492705" />
+    <state width="1398" height="243" key="GridCell.Tab.2.center/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
+    <state width="1357" height="277" key="GridCell.Tab.2.center/40.23.1400.877@40.23.1400.877" timestamp="1578886839233" />
+    <state width="1357" height="305" key="GridCell.Tab.2.center/41.23.1399.877@41.23.1399.877" timestamp="1580235125241" />
+    <state width="1398" height="275" key="GridCell.Tab.2.center/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524121" />
+    <state width="1398" height="322" key="GridCell.Tab.2.center/43.23.1397.877@43.23.1397.877" timestamp="1580641823602" />
+    <state width="1398" height="275" key="GridCell.Tab.2.left" timestamp="1580895492705">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1580895492705" />
+    <state width="1398" height="243" key="GridCell.Tab.2.left/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
+    <state width="1357" height="277" key="GridCell.Tab.2.left/40.23.1400.877@40.23.1400.877" timestamp="1578886839233" />
+    <state width="1357" height="305" key="GridCell.Tab.2.left/41.23.1399.877@41.23.1399.877" timestamp="1580235125241" />
+    <state width="1398" height="275" key="GridCell.Tab.2.left/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524120" />
+    <state width="1398" height="322" key="GridCell.Tab.2.left/43.23.1397.877@43.23.1397.877" timestamp="1580641823602" />
+    <state width="1398" height="275" key="GridCell.Tab.2.right" timestamp="1580895492706">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="275" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1580895492706" />
+    <state width="1398" height="243" key="GridCell.Tab.2.right/0.23.1440.834@0.23.1440.834" timestamp="1578734678239" />
+    <state width="1357" height="277" key="GridCell.Tab.2.right/40.23.1400.877@40.23.1400.877" timestamp="1578886839234" />
+    <state width="1357" height="305" key="GridCell.Tab.2.right/41.23.1399.877@41.23.1399.877" timestamp="1580235125242" />
+    <state width="1398" height="275" key="GridCell.Tab.2.right/43.23.1397.877/1440.23.1920.1057@43.23.1397.877" timestamp="1580376524122" />
+    <state width="1398" height="322" key="GridCell.Tab.2.right/43.23.1397.877@43.23.1397.877" timestamp="1580641823602" />
+    <state x="386" y="44" key="SettingsEditor" timestamp="1580812265245">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="386" y="44" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580812265245" />
     <state x="229" y="79" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1578664236260" />
-    <state x="458" y="178" key="SettingsEditor/41.23.1399.877@41.23.1399.877" timestamp="1578977245087" />
-    <state width="700" height="439" key="XDebugger.FullValuePopup" timestamp="1578970287055">
+    <state x="416" y="66" key="SettingsEditor/41.23.1399.877@41.23.1399.877" timestamp="1579517761900" />
+    <state x="417" y="66" key="SettingsEditor/43.23.1397.877@43.23.1397.877" timestamp="1580725458049" />
+    <state width="700" height="439" key="XDebugger.FullValuePopup" timestamp="1579086866968">
       <screen x="41" y="23" width="1399" height="877" />
     </state>
     <state width="720" height="417" key="XDebugger.FullValuePopup/0.23.1440.834@0.23.1440.834" timestamp="1578726614585" />
-    <state width="700" height="439" key="XDebugger.FullValuePopup/41.23.1399.877@41.23.1399.877" timestamp="1578970287055" />
-    <state x="376" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1578665587856">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state width="700" height="439" key="XDebugger.FullValuePopup/41.23.1399.877@41.23.1399.877" timestamp="1579086866968" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580615722711">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1580615722711" />
+    <state x="375" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1579857966888">
+      <screen x="43" y="23" width="1397" height="877" />
     </state>
     <state x="376" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.834@0.23.1440.834" timestamp="1578665587856" />
-    <state x="398" y="85" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578892255392">
-      <screen x="41" y="23" width="1399" height="877" />
+    <state x="406" y="287" key="com.intellij.ide.util.TipDialog/41.23.1399.877@41.23.1399.877" timestamp="1579179174123" />
+    <state x="375" y="271" key="com.intellij.ide.util.TipDialog/43.23.1397.877@43.23.1397.877" timestamp="1579857966888" />
+    <state x="367" y="64" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580358781014">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="367" y="64" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1580358781014" />
     <state x="398" y="85" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/41.23.1399.877@41.23.1399.877" timestamp="1578892255392" />
     <state x="458" y="201" key="extract.method.dialog" timestamp="1578734693136">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="458" y="201" key="extract.method.dialog/0.23.1440.834@0.23.1440.834" timestamp="1578734693136" />
-    <state x="415" y="89" width="673" height="745" key="find.popup" timestamp="1578985684394">
-      <screen x="43" y="23" width="1397" height="877" />
+    <state x="384" y="68" width="695" height="765" key="find.popup" timestamp="1580836713482">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="384" y="68" width="695" height="765" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1580836713482" />
     <state x="383" y="86" width="673" height="708" key="find.popup/0.23.1440.834@0.23.1440.834" timestamp="1578662416527" />
+    <state x="414" y="89" width="674" height="745" key="find.popup/41.23.1399.877@41.23.1399.877" timestamp="1579067109632" />
     <state x="415" y="89" width="673" height="745" key="find.popup/43.23.1397.877@43.23.1397.877" timestamp="1578985684394" />
-    <state x="415" y="189" width="670" height="711" key="search.everywhere.popup" timestamp="1578917087862">
-      <screen x="41" y="23" width="1399" height="877" />
+    <state x="473" y="81" key="refactoring.ChangeSignatureDialog" timestamp="1580022373884">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="473" y="81" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1580022373884" />
+    <state x="502" y="102" key="refactoring.ChangeSignatureDialog/43.23.1397.877@43.23.1397.877" timestamp="1579252555197" />
+    <state x="385" y="170" width="690" height="730" key="search.everywhere.popup" timestamp="1580836700729">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="170" width="690" height="730" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1580836700729" />
     <state x="385" y="181" width="670" height="676" key="search.everywhere.popup/0.23.1440.834@0.23.1440.834" timestamp="1578643230009" />
-    <state x="415" y="189" width="670" height="711" key="search.everywhere.popup/41.23.1399.877@41.23.1399.877" timestamp="1578917087862" />
+    <state x="415" y="189" width="670" height="711" key="search.everywhere.popup/41.23.1399.877@41.23.1399.877" timestamp="1579516982277" />
+    <state x="416" y="189" width="670" height="711" key="search.everywhere.popup/43.23.1397.877@43.23.1397.877" timestamp="1580010205170" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/graph/FriendsCircle.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/tree/ZigZagTreePath.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/greedy/Dota2SenateWinner.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/greedy/Dota2SenateWinner.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hotel/graph/ShortestPathToVisitAllNodes.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="current" language="JAVA" />
+        <watch expression="result" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PostCall$awesomeDietSaiKrishna.coverage" NAME="awesomeDietSaiKrishna Coverage Results" MODIFIED="1579587982736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
+    <SUITE FILE_PATH="coverage/PostCall$com_hotel_Math_in_PostCall.ic" NAME="com.hotel.Math in PostCall Coverage Results" MODIFIED="1579404256232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.Math.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$AwesomeDiet.coverage" NAME="AwesomeDiet Coverage Results" MODIFIED="1579584533884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
+    <SUITE FILE_PATH="coverage/PostCall$kapilAD.coverage" NAME="kapilAD Coverage Results" MODIFIED="1579582897153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
+    <SUITE FILE_PATH="coverage/PostCall$SaikrishnaNewYearCandy.coverage" NAME="SaikrishnaNewYearCandy Coverage Results" MODIFIED="1579587036552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
+    <SUITE FILE_PATH="coverage/PostCall$CandyCrush.coverage" NAME="CandyCrush Coverage Results" MODIFIED="1579584317843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
+    <SUITE FILE_PATH="coverage/PostCall$LongDriveVruddhi.coverage" NAME="LongDriveVruddhi Coverage Results" MODIFIED="1579598423591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
+    <SUITE FILE_PATH="coverage/PostCall$candycrushSaiKrishna.coverage" NAME="candycrushSaiKrishna Coverage Results" MODIFIED="1579587634342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
+    <SUITE FILE_PATH="coverage/PostCall$LongDriveSalman.coverage" NAME="LongDriveSalman Coverage Results" MODIFIED="1579598281170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
     <SUITE FILE_PATH="coverage/PostCall$LetterCasePermutation.ic" NAME="LetterCasePermutation Coverage Results" MODIFIED="1578653286477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hotel.backtracking.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PostCall$kapil.coverage" NAME="kapilcandy Coverage Results" MODIFIED="1579581523770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
+    <SUITE FILE_PATH="coverage/PostCall$NewYearCandies.coverage" NAME="NewYearCandies Coverage Results" MODIFIED="1579517042290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python" />
+    <SUITE FILE_PATH="coverage/PostCall$NumberOfOperationToMakeNetworkConnected.ic" NAME="NumberOfOperationToMakeNetworkConnected Coverage Results" MODIFIED="1579625990125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hotel.graph.*</FILTER>
     </SUITE>
   </component>
 </project>

@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Permutation {
     public static void main(String args[]){
-        int[] n = {1,2,2};
+        int[] n = {10,2};
         Permutation p = new Permutation();
         List<List<Integer>> result = p.permute(n);
         System.out.println(result);

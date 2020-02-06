@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+  <component name="FacetManager">
+    <facet type="Python" name="Python">
+      <configuration sdkName="Python 3.8 (PostCall)" />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -9,6 +14,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Python 3.8 (PostCall) interpreter library" level="application" />
     <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0" level="project" />
@@ -45,5 +51,11 @@
     <orderEntry type="library" name="Maven: org.openjfx:javafx-base:mac:14-ea+1" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-media:14-ea+1" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-media:mac:14-ea+1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.graphstream:gs-core:2.0.0-beta" level="project" />
+    <orderEntry type="library" name="Maven: org.graphstream:pherd:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.graphstream:mbox2:1.0" level="project" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
   </component>
 </module>

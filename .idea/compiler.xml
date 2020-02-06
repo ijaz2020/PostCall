@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="PostCall" target="8" />
+      <module name="PostCall" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
