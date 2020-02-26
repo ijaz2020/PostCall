@@ -5,7 +5,9 @@ import java.util.Queue;
 
 public class ShortestDistanceFromAllBuildings {
     public static void main(String[] args){
-        int[][]  nums= {{1,0,2,0,1}, {0,0,0,0,0}, {0,0,1,0,0}};
+        int[][]  nums= {{1,0,2,0,1},
+                        {0,0,0,0,0},
+                        {0,0,1,0,0}};
         System.out.println(new ShortestDistanceFromAllBuildings().shortestDistance(nums));
     }
         private int[] rowDir = {1, -1, 0, 0};

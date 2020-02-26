@@ -1,6 +1,8 @@
-{{1,1,1,0,0,0,0},{1,1,1,1,1,1,0},{0,0,0,0,0,0,0},{1,1,1,0,0,0,0},{1,1,1,1,1,1,1}}
-4
-
-
-Error while extracting response for type [com.talonoutdoor.marketplace.service.plato.dto.Pageable<com.talonoutdoor.marketplace.service.plato.dto.Advertiser>] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.talonoutdoor.marketplace.service.plato.dto.Advertiser` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('SkyBet'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.talonoutdoor.marketplace.service.plato.dto.Advertiser` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('SkyBet')
- at [Source: (ByteArrayInputStream); line: 1, column: 13] (through reference chain: com.talonoutdoor.marketplace.service.plato.dto.Pageable["content"]->java.util.ArrayList[0])
+        Cashier cashier = new Cashier(3,50,{1,2,3,4,5,6,7},{100,200,300,400,300,200,100});
+        cashier.getBill({1,2},{1,2});                        // return 500.0, bill = 1 * 100 + 2 * 200 = 500.
+        cashier.getBill({3,7},{10,10});                      // return 4000.0
+        cashier.getBill({1,2,3,4,5,6,7},{1,1,1,1,1,1,1});    // return 800.0, The bill was 1600.0 but as this is the third customer, he has a discount of 50% which means his bill is only 1600 - 1600 * (50 / 100) = 800.
+        cashier.getBill({4},{10});                           // return 4000.0
+        cashier.getBill({7,3},{10,10});                      // return 4000.0
+        cashier.getBill({7,5,3,1,6,4,2},{10,10,10,9,9,9,7}); // return 7350.0, Bill was 14700.0 but as the system counted three more customers, he will have a 50% discount and the bill becomes 7350.0
+        cashier.getBill({2,3,5},{5,3,2});

@@ -35,4 +35,27 @@ public class WeakestRow {
         }
         return out;
     }
+
+    public int[] sortByBits(int[] arr) {
+        List<int[]> pq = new ArrayList<>();
+        Collections.sort(pq, (a,b) -> a[0] == b[0] ? a[1] - b[1] : a[0]- b[0]);
+        for(int i=0; i<arr.length; i++){
+            int count = calcualte1Bit(arr[i]);
+            pq.add(new int[]{count, arr[i], i});
+        }
+        int[] result = new int[arr.length]; int index = 0;
+        for (int[] i : pq)
+            result[index++] = i[1];
+
+        return result;
+    }
+
+    private int calcualte1Bit(int n){
+        int count = 0;
+        while(n != 0){
+            n = n & (n - 1);
+            count++;
+        }
+        return count;
+    }
 }
