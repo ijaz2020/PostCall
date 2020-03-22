@@ -1,10 +1,13 @@
 package com.hotel;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class LongestIncreasingSubsequence {
     public static void main(String[] args){
 
+        Map<String, Integer> oneMap = new HashMap<>();
         int[] a = {10,9,2,5,3,7,101,18};
 //        System.out.println(lengthOfLIS(a));
         System.out.println(lengthOfLIS1(a));

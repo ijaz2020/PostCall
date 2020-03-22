@@ -1,6 +1,4 @@
-package com.hotel.string;
-
-import com.hotel.array.TopKFrequent;
+package com.hotel.priorityQueue;
 
 import java.util.*;
 
@@ -16,6 +14,7 @@ public class TopKFrequentWords {
         for(String word : words)
             frequencyMap.put(word, frequencyMap.getOrDefault(word, 0) + 1);
         PriorityQueue<Map.Entry<String, Integer>> priorityQueue = new PriorityQueue<>((a,b) -> a.getValue().equals(b.getValue()) ? b.getKey().compareTo(a.getKey()) : a.getValue() - b.getValue());
+//        PriorityQueue<String> priorityQueue = new PriorityQueue<>(Comparator.comparingInt(frequencyMap::get));
 
         for(Map.Entry<String, Integer> entry: frequencyMap.entrySet()){
             priorityQueue.offer(entry);

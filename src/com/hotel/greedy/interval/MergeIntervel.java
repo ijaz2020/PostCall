@@ -61,6 +61,27 @@ public class MergeIntervel {
         }
         return result.toArray(new int[result.size()][]);
     }
+    public int[] asteroidCollision(int[] asteroids) {
+        Stack<Integer> stack = new Stack<>();
+        for (int asteroid : asteroids) {
+            if ( stack.isEmpty() && asteroid < 0) continue;
+            if (asteroid > 0) stack.push(asteroid);
+            int current = Math.abs(asteroid);
+            while (current != 0) {
+                if (stack.peek() < current) {
+                    stack.pop();
+                } else {
+                    current = 0;
+                }
+            }
+        }
+        Object[] obj = stack.toArray();
+        int[] res = new int[obj.length];
+        for(int i=0; i< obj.length;i++){
+            res[i] = (Integer)obj[i];
+        }
+        return res;
+    }
 
     public static int[][] merge2(int[][] intervals) {
         if (intervals.length <= 1)
