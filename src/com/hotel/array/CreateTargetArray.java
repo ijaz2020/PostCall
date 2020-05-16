@@ -1,7 +1,9 @@
 package com.hotel.array;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 
 public class CreateTargetArray {
     public static void main(String[] args) {
@@ -10,13 +12,12 @@ public class CreateTargetArray {
     }
 
     public int[] createTargetArray(int[] nums, int[] index) {
-        int ind = 0;
-        LinkedList<Integer> linkedList = new LinkedList<>();
+        ArrayList<Integer> linkedList = new ArrayList<>(nums.length);
         for(int i=0; i< nums.length; i++)
             linkedList.add(index[i], nums[i]);
         int[] res = new int[linkedList.size()];
-        for(int i : linkedList)
-            res[ind++] = i;
+        for(int i = 0; i< linkedList.size(); i++)
+            res[i] = linkedList.get(i);
         return res;
     }
 }

@@ -2,10 +2,10 @@ import java.util.Arrays;
 
 public class ProductElem {
     public static void main(String arg[]){
-        int[] a ={1,2,3,4};
-        System.out.println(Arrays.toString(productExceptSelf(a)));
+        int[] a ={2,3,4,5};
+        System.out.println(Arrays.toString(new ProductElem().productExceptSelf1(a)));
     }
-        private static int[] productExceptSelf(int[] nums) {
+    private int[] productExceptSelf(int[] nums) {
 
             // The length of the input array
             int length = nums.length;
@@ -51,4 +51,18 @@ public class ProductElem {
 
             return answer;
         }
+
+    public int[] productExceptSelf1(int[] nums) {
+        int n = nums.length;
+        int[] left = new int[n], right = new int[n], res = new int[n];
+        left[0] = nums[0]; right[n-1] =nums[n-1];
+        for(int i=1; i<n; i++)
+            left[i] = left[i-1] * nums[i];
+        for(int i=n-2; i>=0; i--)
+            right[i] = right[i+1] * nums[i];
+        res[0] = right[1]; res[n-1] = left[n-2];
+        for(int i=1; i<n-1; i++)
+            res[i] = left[i-1] * right[i+1];
+        return res;
+    }
 }

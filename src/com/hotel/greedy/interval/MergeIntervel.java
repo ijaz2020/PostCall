@@ -7,7 +7,7 @@ public class MergeIntervel {
         int[][] A = {{2,3},{2,2},{3,3},{1,3},{5,7},{2,2},{4,6}};
 //        int[][] A = {{1,3},{2,6},{8,10},{15,18}};
 //        int[][] A = {{2,3},{3,4},{4,5},{6,7},{7,8}, {8,9}, {1,10}};
-        System.out.println(Arrays.deepToString(new MergeIntervel().merge(A)));
+        System.out.println(Arrays.deepToString(new MergeIntervel().merge1(A)));
         String s =""; s.toLowerCase();
     }
 

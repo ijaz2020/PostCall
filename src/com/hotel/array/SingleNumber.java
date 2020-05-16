@@ -8,6 +8,10 @@ public class SingleNumber {
         System.out.println(Arrays.toString(new SingleNumber().singleNumber(nums)));
     }
 
+    public int singleNumber1(int[] nums) {
+        return Arrays.stream(nums).reduce(0 , (a,b) -> a^b);
+    }
+
     public int[] singleNumber(int[] nums) {
         // Pass 1 :
         // Get the XOR of the two numbers we need to find

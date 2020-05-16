@@ -6,18 +6,32 @@ public class ReorganizeString {
     public static void main(String[] args){
         System.out.println(new ReorganizeString().reorganizeString("aaaaaabbbbcccddeef"));
     }
-    public String reorganizeString1(String S) {
+    public String reorganizeString(String S) {
+        int n = S.length();
         int[] charMap = new int[26];
-        for (int i = 0; i < S.length(); i++) {
+        for(int i=0; i < n;i++){
             charMap[S.charAt(i) - 'a']++;
         }
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[1] - a[1]);
-        for (int i = 0; i < 26; i++) {
-
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a , b) -> b[1] - a[1]);
+        for(int i=0; i< 26;i++){
+            pq.offer(new int[]{i, charMap[i]});
         }
-        return S;
+        if( pq.peek()[1] > (n+1)/2 ) return "";
+
+        StringBuilder sb = new StringBuilder();
+        int[] prev = {0,0};
+        while(!pq.isEmpty()){
+            int[] curr = pq.poll();
+            if(curr[1] == 0) break;
+            sb.append( (char)(curr[0] + 'a'));
+            pq.offer(prev);
+            --curr[1];
+            prev = curr;
+        }
+
+        return sb.toString();
     }
-    public String reorganizeString(String S) {
+    public String reorganizeString1(String S) {
         PriorityQueue<int[]> q = new PriorityQueue<>((a, b) -> b[1] - a[1]);
         int[] m = new int[26];
         for(int i = 0; i < S.length(); i++)

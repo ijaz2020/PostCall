@@ -8,17 +8,6 @@ public class RegexMatch {
 
     }
 
-    public String get2DArrayPrint(boolean[][] matrix) {
-        String output = new String();
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                output = output + (matrix[i][j] + "\t");
-            }
-            output = output + "\n";
-        }
-        return output;
-    }
-
     public boolean isMatch(String s, String p) {
 
         if (s == null || p == null) {

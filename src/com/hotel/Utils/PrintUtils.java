@@ -1,7 +1,11 @@
 package com.hotel.Utils;
 
-import java.lang.reflect.Array;
-import java.util.*;
+import com.hotel.LinkedList.ListNode;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 public class PrintUtils {
 
@@ -88,6 +92,24 @@ public class PrintUtils {
             output = output + "\n";
         }
         return output;
+    }
+
+    public static String get2DArrayPrint(int[] matrix) {
+        String output = new String();
+        for (int i = 0; i < matrix.length; i++) {
+                output = output + (matrix[i] + " ");
+            output = output + " ";
+        }
+        return output;
+    }
+
+    public static String getLinkedList(ListNode node){
+        StringBuilder sb = new StringBuilder();
+        while (node != null){
+            sb.append(node.val).append("->");
+            node = node.next;
+        }
+        return sb.toString();
     }
 
 }

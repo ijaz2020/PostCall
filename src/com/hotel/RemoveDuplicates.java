@@ -5,7 +5,7 @@ class RemoveDuplicates
     // Function to remove duplicate elements 
     // This function returns new size of modified 
     // array. 
-    static int removeDuplicates(int arr[], int n)
+     int removeDuplicates(int arr[], int n)
     {
         if (n == 0 || n == 1)
             return n;
@@ -24,12 +24,34 @@ class RemoveDuplicates
         return j;
     }
 
+    public int removeDuplicates2(int[] nums) {
+        int n = nums.length;
+        if(n < 3) return n;
+        int j=0, count = 1;
+        for(int i=0; i<n-1; i++){
+            if(nums[i] == nums[i+1]) count++;
+            else{
+                nums[j++] = nums[i];
+                if(count >=2)
+                    nums[j++] = nums[i];
+                count =1;
+            }
+        }
+
+        if(count >= 1){
+            nums[j++] = nums[n-1];
+            if(count >=2)nums[j++] = nums[n-1];
+        }
+        return j;
+    }
+
     public static void main (String[] args)
     {
-        int arr[] = {41, 49, 49, 64, 65, 71, 71, 89, 100};
+        int arr[] = {0,0,1,1,1,1,2,3,3};
         int n = arr.length;
 
-        n = removeDuplicates(arr, n);
+//        n = new RemoveDuplicates().removeDuplicates(arr, n);
+        n = new RemoveDuplicates().removeDuplicates2(arr);
 
         // Print updated array 
         for (int i=0; i<n; i++)

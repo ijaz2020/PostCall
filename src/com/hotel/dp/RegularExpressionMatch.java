@@ -11,7 +11,7 @@ public class RegularExpressionMatch {
         boolean t = true, f =false;
         for(int i=0; i<= m; i++){
             for(int j=0; j<=n ; j++){
-                if(i ==                      0 && j==0)
+                if(i == 0 && j==0)
                     dp[i][j] = t;
                 else if(j==0)
                     dp[i][j] = f;

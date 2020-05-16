@@ -9,6 +9,11 @@ public class ShortestPathToVisitAllNodes {
     public static void main(String args[]) {
         ShortestPathToVisitAllNodes s = new ShortestPathToVisitAllNodes();
         int[][] a = {{1}, {0, 2, 4}, {1, 3, 4}, {2}, {1, 2}};
+
+       // 0    4
+       // |   / \
+       // |  /   \
+       // 1 ----- 2----3
 //        System.out.println(s.shortestPathLength1(a));
         System.out.println(s.shortestPathLength(a));
     }
@@ -18,7 +23,7 @@ public class ShortestPathToVisitAllNodes {
         Queue<int[]> q = new LinkedList<>();
         for (int i = 0; i < N; i++) {
             mask |= (1 << i);
-            int[] make = new int[] {(1<<i),i};
+            int[] make = {(1<<i),i};
             set.add(make[0] + "+" + make[1]);
             q.offer(make);
         }

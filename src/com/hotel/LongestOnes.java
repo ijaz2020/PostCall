@@ -108,9 +108,9 @@ public class LongestOnes {
     public static void main(String arg[]){
         int[] a ={1,1,1,0,0,0,1,1,1,1,0};
 //        System.out.println(longestOnes(a, 2));
-//        System.out.println(firstUniqChar("leetcode"));
+        System.out.println(firstUniqChar("lovbeleetcode"));
 //        System.out.println(characterReplacement("AABABBA", 1));
         int[] n = {9,9,9};
-        System.out.println(Arrays.toString(plusOne(n)));
+//        System.out.println(Arrays.toString(plusOne(n)));
     }
 }

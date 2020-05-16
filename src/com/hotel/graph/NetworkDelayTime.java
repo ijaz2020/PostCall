@@ -5,7 +5,7 @@ import java.util.*;
 public class NetworkDelayTime {
     public static void main(String[] args) {
         int[][] nums = {{2, 1, 1}, {2, 3, 1}, {3, 4, 1}};
-        System.out.println(new NetworkDelayTime().networkDelayTime1(nums, 4, 2));
+        System.out.println(new NetworkDelayTime().networkDelayTime2(nums, 4, 2));
     }
 
     public int networkDelayTime(int[][] times, int N, int K) {
@@ -63,5 +63,31 @@ public class NetworkDelayTime {
         }
 
         return N == 0 ? score : -1;
+    }
+
+    public int networkDelayTime2(int[][] times, int N, int K) {
+        Map<Integer, Map<Integer, Integer>> map = new HashMap<>();
+        for(int[] time : times){
+            map.compute(time[0], (k, v)-> {
+                if(v == null){
+                    return new HashMap<>();
+                }
+                return v;
+            }).put(time[1], time[2]);
+        }
+        Set<Integer> visited = new HashSet<>();
+        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
+        pq.offer(new int[]{0, K});
+        while(!pq.isEmpty()){
+            int[] cur = pq.poll();
+            if(!visited.add(cur[1])) continue;
+            if(--N ==0) return cur[0];
+            Map<Integer, Integer> neigh = map.get(cur[1]);
+            if(neigh == null) continue;
+            for(Integer i : neigh.keySet()){
+                pq.offer(new int[]{cur[0] + neigh.get(i), i});
+            }
+        }
+        return -1;
     }
 }
