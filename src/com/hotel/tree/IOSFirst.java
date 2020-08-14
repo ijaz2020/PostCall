@@ -1,7 +1,5 @@
 package com.hotel.tree;
 
-import com.hotel.BinarySearchTree;
-
 public class IOSFirst {
     public static void main(String[] args){
         BinarySearchTree tree = new BinarySearchTree();

@@ -11,7 +11,8 @@ public class SortByFrequency {
         Map<Integer, Integer> frequencyMap = new HashMap<Integer, Integer>();
 
         for (int n : nums) {
-            frequencyMap.put(n, frequencyMap.getOrDefault(n, 0) + 1);
+//            frequencyMap.put(n, frequencyMap.getOrDefault(n, 0) + 1);
+            frequencyMap.merge(n, 1, Integer::sum);
         }
 
         for (int key : frequencyMap.keySet()) {

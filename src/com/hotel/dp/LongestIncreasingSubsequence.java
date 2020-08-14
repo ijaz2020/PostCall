@@ -19,7 +19,8 @@ public class LongestIncreasingSubsequence {
                     j = m;
             }
             tails[i] = x;
-            if (i == size) ++size;
+            if (i == size)
+                ++size;
         }
         return size;
     }

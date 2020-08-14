@@ -103,6 +103,15 @@ public class PrintUtils {
         return output;
     }
 
+    public static String getArrayPrint(char[] matrix) {
+        String output = new String();
+        for (int i = 0; i < matrix.length; i++) {
+            output = output + (matrix[i] + " ");
+            output = output + " ";
+        }
+        return output;
+    }
+
     public static String getLinkedList(ListNode node){
         StringBuilder sb = new StringBuilder();
         while (node != null){

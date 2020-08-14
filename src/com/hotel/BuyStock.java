@@ -3,10 +3,19 @@ package com.hotel;
 public class BuyStock {
     public static void main(String[] args){
         int[] a= {7,1,5,3,6,4};
-        System.out.println(maxProfit(a));
+        System.out.println(new BuyStock().maxProfit1(a));
     }
 
-    public static int maxProfit(int[] prices) {
+    public int maxProfit1(int[] prices) {
+        int maxCur = 0, maxSoFar = 0;
+        for(int i = 1; i < prices.length; i++) {
+            maxCur = Math.max(0, maxCur += prices[i] - prices[i-1]);
+            maxSoFar = Math.max(maxCur, maxSoFar);
+        }
+        return maxSoFar;
+    }
+
+    public int maxProfit(int[] prices) {
         if (prices.length == 0) {
             return 0 ;
         }

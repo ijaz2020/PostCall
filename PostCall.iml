@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="CheckStyle-IDEA-Module">
+    <option name="configuration">
+      <map />
+    </option>
+  </component>
   <component name="FacetManager">
     <facet type="Python" name="Python">
       <configuration sdkName="Python 3.8 (PostCall)" />
@@ -64,6 +69,7 @@
     <orderEntry type="library" name="Maven: com.github.graphstream:gs-core:2.0.0-beta" level="project" />
     <orderEntry type="library" name="Maven: org.graphstream:pherd:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.graphstream:mbox2:1.0" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.13.3" level="application" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="renderExternalDocumentation" value="true" />

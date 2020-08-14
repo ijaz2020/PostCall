@@ -1,9 +1,37 @@
 package com.hotel;
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class LongestOnes {
+    public static void main(String arg[]){
+        int[] a ={1,1,1,0,0,0,1,1,1,1,0};
+//        System.out.println(longestOnes(a, 2));
+//        System.out.println(firstUniqChar("lovbeleetcode"));
+//        System.out.println(characterReplacement("AABABBA", 1));
+        int[] n = {9,9,9};
+//        System.out.println(Arrays.toString(plusOne(n)));
+
+    }
+
+    public ArrayList<Integer> plusOne(ArrayList<Integer> A) {
+
+        for(int i = A.size()-1; i>=0; i--){
+            if(A.get(i) < 9){
+                A.set(i, A.get(i) +1);
+                return A;
+            }
+            else A.set(i , 0);
+        }
+        int[] ans = new int[A.size() +1];
+        ans[0] = 1;
+        ArrayList<Integer> res = new ArrayList<>();
+        for(int i=0; i <ans.length; i++){
+            res.add(ans[i]);
+        }
+        return res;
+    }
 
     private static int longest(int a[], int k){
 
@@ -85,6 +113,7 @@ public class LongestOnes {
         return maxLen;
     }
 
+
     public static int[] plusOne(int[] digits) {
 
         if(digits.length == 0) return null;
@@ -105,12 +134,5 @@ public class LongestOnes {
         return d;
     }
 
-    public static void main(String arg[]){
-        int[] a ={1,1,1,0,0,0,1,1,1,1,0};
-//        System.out.println(longestOnes(a, 2));
-        System.out.println(firstUniqChar("lovbeleetcode"));
-//        System.out.println(characterReplacement("AABABBA", 1));
-        int[] n = {9,9,9};
-//        System.out.println(Arrays.toString(plusOne(n)));
-    }
+
 }

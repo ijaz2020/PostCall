@@ -6,7 +6,7 @@ public class CourseScheduleII {
     public static void main(String[] args){
         CourseScheduleII c = new CourseScheduleII();
         int[][] course = {{1,0}, {2,0}, {3,1}, {3,2}};
-        System.out.println(Arrays.toString(c.findOrder(4, course)));
+        System.out.println(Arrays.toString(c.findOrder1(4, course)));
     }
     // 0,1,2,3
     public int[] findOrder(int numCourses, int[][] prerequisites) {
@@ -34,5 +34,44 @@ public class CourseScheduleII {
             }
         }
         return result;
+    }
+    //Input: 4, [[1,0],[2,0],[3,1],[3,2]]
+    //Output: [0,1,2,3] or [0,2,1,3]
+    public int[] findOrder1(int numCourses, int[][] prerequisites) {
+        Map<Integer, List<Integer>> graph = new HashMap<>();
+        LinkedList<Integer> res = new LinkedList<>();
+        boolean[] visited = new boolean[numCourses];
+        for(int[] inDegree : prerequisites){
+            graph.computeIfAbsent(inDegree[1], k -> new ArrayList<>()).add(inDegree[0]);                    // 0 1,2
+        }                                                                                                   // 1 3
+                                                                                                            // 2 3
+        for(int i=0; i<numCourses; i++){                                                                    // 3 1
+            Set<Integer> path = new HashSet<>();
+            path.add(i);
+            if(!dfs(i, graph, res, visited, path)){
+                res.clear();
+                break;
+            }
+        }
+
+        return res.stream().mapToInt(i->i).toArray();
+    }
+
+    private boolean dfs(int i, Map<Integer, List<Integer>> graph, LinkedList<Integer> res, boolean[] visited, Set<Integer> path) {
+        boolean noCycle = true;
+        for(int j : graph.getOrDefault(i, new ArrayList<>())){
+            if(!visited[j]){
+                if(!path.add(j)){
+                    noCycle = false;
+                    break;
+                }
+                noCycle = noCycle && dfs(j, graph, res, visited, path);
+            }
+        }
+        if(!visited[i]) {
+            visited[i] = true;
+            res.addFirst(i);
+        }
+        return noCycle;
     }
 }

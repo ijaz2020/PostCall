@@ -1,5 +1,7 @@
 package com.hotel;
 
+import java.util.ArrayDeque;
+import java.util.Arrays;
 import java.util.Stack;
 
 class MinStack {
@@ -14,29 +16,30 @@ class MinStack {
         minStack.getMin();
     }
 
-    int min = Integer.MAX_VALUE;
-    Stack<Integer> stack = new Stack<Integer>();
+    ArrayDeque<int[]> aq = null;
+    /** initialize your data structure here. */
+    public MinStack() {
+        aq = new ArrayDeque<>();
+    }
+
     public void push(int x) {
-        // only push the old minimum value when the current
-        // minimum value changes after pushing the new value x
-        if(x <= min){
-            stack.push(min);
-            min=x;
+        if(aq.isEmpty()){
+            aq.push(new int[]{x, x});
+        }else{
+            aq.push(new int[]{x, Math.min(x,  aq.getLast()[1])});
         }
-        stack.push(x);
+        System.out.println(Arrays.toString(aq.toArray()));
     }
 
     public void pop() {
-        // if pop operation could result in the changing of the current minimum value,
-        // pop twice and change the current minimum value to the last minimum value.
-        if(stack.pop() == min) min=stack.pop();
+        aq.pollLast();
     }
 
     public int top() {
-        return stack.peek();
+        return aq.getLast()[0];
     }
 
     public int getMin() {
-        return min;
+        return aq.getLast()[1];
     }
 }

@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class TotalContinuousSubArrayK {
         public static void main(String[] arg){
-            int[] a = {2,3,6,5,4,1,10};
+            int[] a = {-4,3,6,-2,1,-1,0,2,-2,3,1};
             System.out.println(subarraySum(a, 5));
         }
     public  static int subarraySum(int[] nums, int k) {

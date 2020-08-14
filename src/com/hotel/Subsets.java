@@ -1,15 +1,20 @@
 package com.hotel;
 
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Stack;
 
 public class Subsets {
-    public static void  main(String[] args){
-        char[] nums ={'a','b','c', 'd'};
-        List<List<Character>> inteerList = subsets(nums);
-        System.out.println(inteerList.size());
-        System.out.println(inteerList);
+    public static void  main(String[] args) {
+        char[] nums = {'a', 'b', 'c', 'd'};
+//        List<List<Character>> inteerList = subsets(nums);
+//        System.out.println(inteerList.size());
+//        System.out.println(inteerList);
+        int[] nums1 = {1, 2, 3};
+
+//        System.out.println(new Subsets().subsets(nums1));
     }
     public static List<List<Character>> subsets(char[] nums) {
         List<List<Character>> result = new ArrayList<>();
