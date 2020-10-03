@@ -10,8 +10,12 @@ public class DominantIndex {
     public static void main(String[] args){
         int[] nums={1,0};
         List<Integer> resultList = new ArrayList<>();
-        resultList.toArray(new Integer[0]);
-        System.out.println(dominantIndex(nums));
+        resultList.add(1);
+        resultList.add(2);
+        resultList.add(3);
+        System.out.println();
+        ///resultList.toArray(new Integer[0]);
+        //System.out.println(dominantIndex(nums));
     }
         public static int dominantIndex(int[] nums) {
             if(nums.length == 0) return -1;

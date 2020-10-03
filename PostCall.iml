@@ -20,6 +20,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Python 3.8 (PostCall) interpreter library" level="application" />
+    <orderEntry type="library" name="scala-sdk-2.13.3" level="application" />
     <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.17" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.17" level="project" />
@@ -69,7 +70,6 @@
     <orderEntry type="library" name="Maven: com.github.graphstream:gs-core:2.0.0-beta" level="project" />
     <orderEntry type="library" name="Maven: org.graphstream:pherd:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.graphstream:mbox2:1.0" level="project" />
-    <orderEntry type="library" name="scala-sdk-2.13.3" level="application" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="renderExternalDocumentation" value="true" />

@@ -7,34 +7,31 @@ import java.util.Queue;
 
 public class LeastIntervel {
   public static void main(String[] args) {
-    char[] c = {'A','A','A','A','A','A','B','C','D','E','F','G'};
-    System.out.println(new LeastIntervel().leastInterval(c, 0));
+    char[] c = {'A','A','A','B','B','B'};
+    System.out.println(new LeastIntervel().leastInterval(c, 2));
   }
 
   public int leastInterval(char[] tasks, int n) {
-//    if (n == 0) return tasks.length;
-
-    Map<Character, Integer> taskToCount = new HashMap<>();
-    for (char c : tasks) {
-      taskToCount.put(c, taskToCount.getOrDefault(c, 0) + 1);
+    Map<Character, Integer> freqMap = new HashMap<>();
+    for(char c: tasks){
+      freqMap.merge(c, 1, Integer::sum);
     }
-
-    Queue<Integer> queue = new PriorityQueue<>((i1, i2) -> i2 - i1);
-    for (char c : taskToCount.keySet()) queue.offer(taskToCount.get(c));
-
+    PriorityQueue<Integer> pq = new PriorityQueue<>((a,b) -> b-a);
+    pq.addAll(freqMap.values());
     Map<Integer, Integer> coolDown = new HashMap<>();
-    int currTime = 0;
-    while (!queue.isEmpty() || !coolDown.isEmpty()) {
-      if (coolDown.containsKey(currTime - n - 1)) {
-        queue.offer(coolDown.remove(currTime - n - 1));
+    int res = 0;
+    while(!pq.isEmpty() || !coolDown.isEmpty()){
+      if(coolDown.containsKey(res)){
+        pq.offer(coolDown.remove(res));
       }
-      if (!queue.isEmpty()) {
-        int left = queue.poll() - 1;
-        if (left != 0) coolDown.put(currTime, left);
+      if(!pq.isEmpty()){
+        int curr = pq.poll()-1;
+        if(curr!=0){
+          coolDown.put(curr, res+n+1);
+        }
       }
-      currTime++;
+      res++;
     }
-
-    return currTime;
+    return res;
   }
 }
