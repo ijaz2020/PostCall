@@ -1,6 +1,7 @@
 package com.hotel.backtracking;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Permutation {
     public static void main(String args[]){
@@ -9,8 +10,9 @@ public class Permutation {
 //        List<List<Integer>> result = p.permute(n);
 //        System.out.println(result);
 //        System.out.println(new Permutation().getPermutation(3, 3));
-        System.out.println(new Permutation().getPermutation1(3, 3));
-        int[] n1 = {1,2,2};
+//        System.out.println(new Permutation().getPermutation1(3, 3));
+        int[] n1 = {1,2,3};
+        System.out.println(new Permutation().permute(n1));
         //Permute II
         //[[1,2,2],[2,1,2],[2,2,1]]
     }
@@ -63,7 +65,24 @@ public class Permutation {
         }
         return sb.toString();
     }
+    List<List<Integer>> res = new ArrayList<>();
+
     public List<List<Integer>> permute(int[] nums) {
+        permutate(Arrays.stream(nums).boxed().collect(Collectors.toList()), 0);
+        return res;
+    }
+
+    void permutate(List<Integer> nums, int s){
+        if(s == nums.size()-1){
+            res.add(new ArrayList<>(nums));
+        }
+        for(int i=s; i<nums.size(); i++){
+            Collections.swap(nums, i, s);
+            permutate(nums, s+1);
+            Collections.swap(nums, i, s);
+        }
+    }
+    public List<List<Integer>> permute1(int[] nums) {
         LinkedList<List<Integer>> result = new LinkedList<>();
         result.add(new ArrayList<>());
         for(int n: nums){

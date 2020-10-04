@@ -13,9 +13,10 @@ import java.util.stream.IntStream;
 public class SearchTamilRockers {
   private final String USER_AGENT = "Mozilla/5.0";
   public static void main(String[] args) throws IOException {
+    System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2");
     String url = "https://tamilrockers.ws/index.php/forum/115-tamil-new-dvdrips-hdrips-bdrips-movies/page-";
-    String[] searchTxt = {"Enai", "Noki", "Paayum", "Thota"};
-    int page =114;
+    String[] searchTxt = {"aruvam"};
+    int page =117;
     new SearchTamilRockers().searchMovie(url, searchTxt, page);
   }
 

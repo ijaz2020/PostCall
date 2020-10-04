@@ -1,6 +1,7 @@
 package com.hotel.greedy.interval;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 class Interval{
     int start;
@@ -25,6 +26,29 @@ public class InsertInterval {
         intervals.add(new Interval(8,10));
         intervals.add(new Interval(12,16));
         System.out.println(new InsertInterval().insert(intervals, new Interval(4, 8)));
+    }
+
+    public int[][] insert(int[][] iv, int[] newInt) {
+        int i = 0, n = iv.length;
+        LinkedList<int[]> res = new LinkedList<>();
+        if (n == 0) res.add(newInt);
+        else if (newInt.length == 0)
+            return iv;
+        else {
+            while (i < n && iv[i][1] < newInt[0]) {
+                res.offer(iv[i++]);
+            }
+            res.offer(newInt);
+            for (int j = i; j < iv.length; j++) {
+                int[] current = res.getLast();
+                int[] next = iv[j];
+                if (current[1] >= next[0]) {
+                    res.remove(i);
+                    res.add(new int[]{Math.min(current[0], next[0]), Math.max(current[1], next[1])});
+                } else res.add(iv[j]);
+            }
+        }
+        return res.toArray(new int[res.size()][]);
     }
     public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
         int i=0;

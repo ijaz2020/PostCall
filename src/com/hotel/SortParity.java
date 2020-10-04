@@ -1,11 +1,14 @@
 package com.hotel;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 class SortParity {
 
     public static void main(String arg[]){
         int[] A = {3,1,2,4};
+        List<Integer> sall = Arrays.stream(A).boxed().collect(Collectors.toList());
         System.out.println(Arrays.toString(sortArrayByParity(A)));
     }
     public static int[] sortArrayByParity(int[] A) {

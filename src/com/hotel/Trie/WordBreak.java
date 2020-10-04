@@ -1,22 +1,57 @@
 package com.hotel.Trie;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class WordBreak {
   public static void main(String[] args) {
       //"cbca"
       //["bc","ca"]
+    /*"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
+            ["a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"]*/
     List<String> words = Arrays.asList("a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa");
     String s = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" +
       "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
 //    List<String> words = Arrays.asList("leet", "code"); String s ="leetcode";
-    System.out.println(new WordBreak().wordBreak1(s, words));
+    String s1 = "abc";
+    List<String> wordDict = new ArrayList<>(){{
+            add("bc");
+    }};
+    System.out.println(new WordBreak().wordBreak(s1, wordDict));
   }
+
+  public boolean wordBreak(String s, List<String> dict) {
+    int n = s.length();
+    Set<String> set = new HashSet<>(dict);
+    boolean[] f = new boolean[n+1];
+    f[0] = true;
+    for(int i=1; i <= s.length(); i++){
+      for(int j=0; j < i; j++){
+        if(f[j] && set.contains(s.substring(j, i))){
+          f[i] = true;
+          break;
+        }
+      }
+    }
+    return f[s.length()];
+  }
+
+  public boolean wordBreak3(String s, List<String> wordDict) {
+    return dfs(s, new HashSet<>(wordDict));
+  }
+
+  boolean dfs(String s, Set<String> dict){
+    for(int i=1; i <= s.length(); i++){
+      if(dict.contains(s.substring(0, i))){
+        if(i+1 > s.length() || dfs(s.substring(i), dict)){
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+
   TrieNode root = new TrieNode();
-  public boolean wordBreak(String s, List<String> wordDict) {
+  public boolean wordBreak2(String s, List<String> wordDict) {
     buildTrie(wordDict);
     return searchTrie(s, 0);
   }

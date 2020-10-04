@@ -2,6 +2,7 @@ package com.hotel;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -16,6 +17,9 @@ public class Subsequence {
     // d - 4
     // c - 5
     public static void main(String[] args){ System.out.println(new Subsequence().isSubsequence("abc" , "bahbgdca"));
+       List<Integer> integers = new ArrayList<>();
+       integers.add(1);integers.add(2);integers.add(5);
+        System.out.println(Collections.binarySearch(integers, 6));
     }
 
     public boolean isSubsequence(String s, String t) {

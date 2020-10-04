@@ -7,31 +7,25 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.*;
 
-class Main{
+public class Main{
+  static String YES = "Yes", NO= "No";
   public static void main(String[] args) throws IOException {
     Scanner sc = new Scanner(System.in);
-    sc.next();
-    String s = sc.next();
-//    String s = "WRWWRWRR";
-    char[] chars = s.toCharArray();
-    char R ='R', W ='W';
-    int i=0, j=chars.length-1, res = 0;
-    while ( i <j){
-      if(R == chars[j] && W == chars[i]){
-        char tmp = chars[j];
-        chars[j] = chars[i];
-        chars[i] = tmp;
-        i++;j--;res++;
+    int n = sc.nextInt(), count = 0;
+    for(int i=0; i<n; i++){
+      if(sc.nextInt() == sc.nextInt()){
+        if(++count == 3){
+          System.out.println(YES);
+          return;
+        }
       }
-      else if(chars[i] == R)
-        i++;
-      else if(chars[j] == W)
-        j--;
+      else{
+        count =0;
+      }
     }
-//    System.out.println(new String(chars));
-    System.out.println(res);
+    System.out.println(NO);
   }
 
   static class Scanner {

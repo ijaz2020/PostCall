@@ -13,9 +13,56 @@ public class CriticalConnection {
         System.out.println(new CriticalConnection().criticalConnections(4, g));
     }
 
-    private List<List<Integer>> ans = new ArrayList<>();
+    private int currentTime = 0;
 
     public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {
+        {
+            int[] times = new int[n];
+            int[] lowTimes = new int[n];
+            boolean[] visitedNodes = new boolean[n];
+            List<List<Integer>> ans = new ArrayList<>();
+
+            ArrayList<Integer>[] graph = new ArrayList[n];
+            for(int i = 0; i < graph.length; i++) {
+                graph[i] = new ArrayList<>();
+            }
+            for(List<Integer> connection: connections) {
+                graph[connection.get(0)].add(connection.get(1));
+                graph[connection.get(1)].add(connection.get(0));
+            }
+
+            for(int i = 0; i < n; i++) {
+                visitedNodes[i] = false;
+            }
+
+            dfs(graph, 0, -1, times, lowTimes, visitedNodes, ans);
+
+            return ans;
+        }
+    }
+
+    private void dfs(ArrayList<Integer>[] graph, int currentNode, int parentNode, int[] times, int[] lowTimes, boolean[] visitedNodes, List<List<Integer>> ans) {
+        visitedNodes[currentNode] = true;
+        times[currentNode] = lowTimes[currentNode] = currentTime++;
+
+        for(int neighbourNode: graph[currentNode]) {
+            if(neighbourNode == parentNode)
+                continue;
+            else if(!visitedNodes[neighbourNode]) {
+                dfs(graph, neighbourNode, currentNode, times, lowTimes, visitedNodes, ans);
+                lowTimes[currentNode] = Math.min(lowTimes[currentNode], lowTimes[neighbourNode]);
+                if(times[currentNode] < lowTimes[neighbourNode]) {
+                    ans.add(Arrays.asList(currentNode, neighbourNode));
+                }
+            } else {
+                lowTimes[currentNode] = Math.min(lowTimes[currentNode], lowTimes[neighbourNode]);
+            }
+        }
+    }
+
+    private List<List<Integer>> ans = new ArrayList<>();
+
+    public List<List<Integer>> criticalConnections1(int n, List<List<Integer>> connections) {
         Map<Integer, List<Integer>> graph = new HashMap<>();
         for (List<Integer> c : connections) {
             graph.computeIfAbsent(c.get(0), (k -> new ArrayList<>())).add(c.get(1));
