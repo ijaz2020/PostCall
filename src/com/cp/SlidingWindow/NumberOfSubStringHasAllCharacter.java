@@ -1,4 +1,4 @@
-package com.hotel.SlidingWindow;
+package com.cp.SlidingWindow;
 
 public class NumberOfSubStringHasAllCharacter {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package com.hotel.finiteStateMachine;
+package com.cp.finiteStateMachine;
 
 public class FrogsCroaking {
   public static void main(String[] args) {

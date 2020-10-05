@@ -1,4 +1,4 @@
-package com.hotel.dp;
+package com.cp.dp;
 
 public class StoneGame {
   public static void main(String[] args) {

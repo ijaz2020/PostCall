@@ -1,6 +1,6 @@
-package com.hotel.matrix;
+package com.cp.matrix;
 
-import com.hotel.Utils.PrintUtils;
+import com.cp.Utils.PrintUtils;
 
 import java.util.HashSet;
 import java.util.LinkedList;

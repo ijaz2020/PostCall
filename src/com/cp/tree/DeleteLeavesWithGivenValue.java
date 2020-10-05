@@ -1,4 +1,4 @@
-package com.hotel.tree;
+package com.cp.tree;
 
 public class DeleteLeavesWithGivenValue {
     public static void main(String[] args){

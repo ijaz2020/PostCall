@@ -1,4 +1,4 @@
-package com.hotel;
+package com.cp;
 
 public class MinAnagram {
     public static void main(String arg[]){

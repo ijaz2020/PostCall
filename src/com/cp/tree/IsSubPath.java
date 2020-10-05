@@ -1,6 +1,6 @@
-package com.hotel.tree;
+package com.cp.tree;
 
-import com.hotel.LinkedList.ListNode;
+import com.cp.LinkedList.ListNode;
 
 public class IsSubPath {
     public static void main(String[] args){

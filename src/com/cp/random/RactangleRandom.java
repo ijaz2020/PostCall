@@ -1,4 +1,4 @@
-package com.hotel.random;
+package com.cp.random;
 
 import java.util.Random;
 import java.util.TreeMap;

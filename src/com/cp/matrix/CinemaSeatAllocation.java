@@ -1,4 +1,4 @@
-package com.hotel.matrix;
+package com.cp.matrix;
 
 import java.util.ArrayList;
 import java.util.Arrays;

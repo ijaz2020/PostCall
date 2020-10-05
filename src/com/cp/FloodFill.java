@@ -1,4 +1,4 @@
-package com.hotel;
+package com.cp;
 
 import javafx.util.Pair;
 

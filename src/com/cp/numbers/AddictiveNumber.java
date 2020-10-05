@@ -1,4 +1,4 @@
-package com.hotel.numbers;
+package com.cp.numbers;
 
 public class AddictiveNumber {
     public static void main(String[] args){

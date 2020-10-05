@@ -1,4 +1,4 @@
-package com.hotel.Utils;
+package com.cp.Utils;
 
 import java.util.Arrays;
 

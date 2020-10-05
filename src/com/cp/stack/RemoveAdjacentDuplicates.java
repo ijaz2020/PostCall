@@ -1,4 +1,4 @@
-package com.hotel.stack;
+package com.cp.stack;
 
 import javafx.util.Pair;
 

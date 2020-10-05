@@ -1,4 +1,4 @@
-package com.hotel.tree;
+package com.cp.tree;
 
 import java.util.HashMap;
 import java.util.TreeSet;

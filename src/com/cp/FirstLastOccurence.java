@@ -1,4 +1,4 @@
-package com.hotel;
+package com.cp;
 
 public class FirstLastOccurence {
     /* if x is present in arr[] then returns the index of

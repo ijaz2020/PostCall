@@ -1,4 +1,4 @@
-package com.hotel.Trie;
+package com.cp.Trie;
 
 public class LongestWordInDictionary {
     public static void main(String[] args){

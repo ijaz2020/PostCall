@@ -1,4 +1,4 @@
-package com.hotel;
+package com.cp;
 
 public class TwoSumWith60Pairs {
     public static void main(String[] args){

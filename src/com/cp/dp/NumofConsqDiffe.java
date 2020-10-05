@@ -1,4 +1,4 @@
-package com.hotel.dp;
+package com.cp.dp;
 
 import java.util.Arrays;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package com.hotel.LinkedList;
+package com.cp.LinkedList;
 
 public class RemoveSortedListII {
     public static void main(String[] args) {

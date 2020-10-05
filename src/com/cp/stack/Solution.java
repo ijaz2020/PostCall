@@ -1,4 +1,4 @@
-package com.hotel.stack;
+package com.cp.stack;
 
 // IMPORT LIBRARY PACKAGES NEEDED BY YOUR PROGRAM
 // SOME CLASSES WITHIN A PACKAGE MAY BE RESTRICTED

@@ -1,7 +1,7 @@
-package com.hotel.matrix;
+package com.cp.matrix;
 
-import com.hotel.Sudoku;
-import com.hotel.Utils.PrintUtils;
+import com.cp.Sudoku;
+import com.cp.Utils.PrintUtils;
 
 
 public class SudokuSolver {

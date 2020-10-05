@@ -1,4 +1,4 @@
-package com.hotel.atCoder;
+package com.cp.atCoder;
 
 
 import java.io.BufferedReader;

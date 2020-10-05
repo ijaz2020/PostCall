@@ -1,4 +1,4 @@
-package com.hotel.sort;
+package com.cp.sort;
 
 public class ShortestUnsortedArray {
   public static void main(String[] args) {

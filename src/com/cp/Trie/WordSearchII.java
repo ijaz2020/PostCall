@@ -1,4 +1,4 @@
-package com.hotel.Trie;
+package com.cp.Trie;
 
 import java.util.ArrayList;
 import java.util.List;

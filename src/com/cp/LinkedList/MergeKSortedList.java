@@ -1,4 +1,4 @@
-package com.hotel.LinkedList;
+package com.cp.LinkedList;
 
 import java.util.Comparator;
 import java.util.List;

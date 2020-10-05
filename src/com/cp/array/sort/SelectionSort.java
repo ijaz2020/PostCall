@@ -1,4 +1,4 @@
-package com.hotel.array.sort;
+package com.cp.array.sort;
 
 import java.util.Arrays;
 

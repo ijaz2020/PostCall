@@ -1,6 +1,6 @@
-package com.hotel.BitManipulation;
+package com.cp.BitManipulation;
 
-import com.hotel.Utils.PrintUtils;
+import com.cp.Utils.PrintUtils;
 
 import java.util.HashSet;
 import java.util.Set;

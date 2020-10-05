@@ -1,4 +1,4 @@
-package com.hotel.backtracking;
+package com.cp.backtracking;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,6 +1,6 @@
-package com.hotel.Utils;
+package com.cp.Utils;
 
-import com.hotel.LinkedList.ListNode;
+import com.cp.LinkedList.ListNode;
 
 import java.util.Arrays;
 import java.util.LinkedList;

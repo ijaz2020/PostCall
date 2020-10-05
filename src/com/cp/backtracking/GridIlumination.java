@@ -1,4 +1,4 @@
-package com.hotel.backtracking;
+package com.cp.backtracking;
 
 import javax.ws.rs.core.Link;
 import java.util.*;

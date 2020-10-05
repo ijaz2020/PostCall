@@ -1,6 +1,6 @@
-package com.hotel.dp;
+package com.cp.dp;
 
-import com.hotel.Utils.PrintUtils;
+import com.cp.Utils.PrintUtils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

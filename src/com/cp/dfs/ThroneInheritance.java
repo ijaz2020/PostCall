@@ -1,4 +1,4 @@
-package com.hotel.dfs;
+package com.cp.dfs;
 
 import java.util.*;
 

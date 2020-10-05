@@ -1,4 +1,4 @@
-package com.hotel.Math;
+package com.cp.Math;
 
 import java.io.BufferedReader;
 import java.io.IOException;

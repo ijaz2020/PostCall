@@ -1,4 +1,4 @@
-package com.hotel.Math;
+package com.cp.Math;
 
 import org.graphstream.graph.Graph;
 import org.graphstream.graph.implementations.SingleGraph;

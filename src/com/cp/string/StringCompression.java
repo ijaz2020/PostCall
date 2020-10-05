@@ -1,4 +1,4 @@
-package com.hotel.string;
+package com.cp.string;
 
 import java.sql.Array;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.hotel;
+package com.cp;
 
 import java.math.BigInteger;
 import java.util.*;

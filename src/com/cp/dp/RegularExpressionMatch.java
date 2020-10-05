@@ -1,4 +1,4 @@
-package com.hotel.dp;
+package com.cp.dp;
 
 public class RegularExpressionMatch {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package com.hotel.map;
+package com.cp.map;
 import java.util.ArrayList;
 import java.util.HashMap;
 

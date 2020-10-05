@@ -1,4 +1,4 @@
-package com.hotel.Trie;
+package com.cp.Trie;
 
 class Trie {
 /*    private TrieNode root;

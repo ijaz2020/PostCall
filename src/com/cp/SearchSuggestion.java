@@ -1,5 +1,5 @@
 /*
-package com.hotel;
+package com.cp;
 
 import java.util.ArrayList;
 import java.util.Arrays;

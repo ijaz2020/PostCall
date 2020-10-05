@@ -1,4 +1,4 @@
-package com.hotel.binarySearch;
+package com.cp.binarySearch;
 
 class IncreasingAndDecreasing
 {

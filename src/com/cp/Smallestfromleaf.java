@@ -1,6 +1,6 @@
-package com.hotel;
+package com.cp;
 
-import com.hotel.tree.TreeNode;
+import com.cp.tree.TreeNode;
 
 public class Smallestfromleaf {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package com.hotel.game;
+package com.cp.game;
 
 import java.io.IOException;
 import java.security.KeyManagementException;

@@ -1,4 +1,4 @@
-package com.hotel.LinkedList;
+package com.cp.LinkedList;
 
 public class ListNode {
         public int val;

@@ -1,4 +1,4 @@
-package com.hotel.array;
+package com.cp.array;
 
 public class PatchArray {
   public static void main(String[] args) {

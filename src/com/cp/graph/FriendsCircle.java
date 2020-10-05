@@ -1,4 +1,4 @@
-package com.hotel.graph;
+package com.cp.graph;
 
 public class FriendsCircle {
     public static void main(String[] args){

@@ -1,5 +1,5 @@
-package com.hotel.tree;
-import com.hotel.VerticalOrderingBT;
+package com.cp.tree;
+import com.cp.VerticalOrderingBT;
 
 import java.util.Deque;
 import java.util.LinkedList;

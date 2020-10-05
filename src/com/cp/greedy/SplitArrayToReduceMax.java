@@ -1,4 +1,4 @@
-package com.hotel.greedy;
+package com.cp.greedy;
 
 public class SplitArrayToReduceMax {
     public static void main(String[] args) {

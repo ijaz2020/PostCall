@@ -1,4 +1,4 @@
-package com.hotel.array.sort;
+package com.cp.array.sort;
 
 public class MinimumCountToReoveToMakeArraySorted {
   public static void main(String[] args) {

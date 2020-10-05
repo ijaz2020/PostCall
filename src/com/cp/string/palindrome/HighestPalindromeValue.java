@@ -1,4 +1,4 @@
-package com.hotel.string.palindrome;
+package com.cp.string.palindrome;
 
 import java.util.HashSet;
 import java.util.Set;

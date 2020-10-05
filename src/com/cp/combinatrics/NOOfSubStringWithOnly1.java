@@ -1,4 +1,4 @@
-package com.hotel.combinatrics;
+package com.cp.combinatrics;
 
 public class NOOfSubStringWithOnly1 {
   public static void main(String[] args) {

@@ -1,5 +1,5 @@
-package com.hotel.array;
-import com.hotel.tree.TreeNode;
+package com.cp.array;
+import com.cp.tree.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

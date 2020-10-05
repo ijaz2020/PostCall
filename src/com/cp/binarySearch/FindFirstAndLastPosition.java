@@ -1,4 +1,4 @@
-package com.hotel.binarySearch;
+package com.cp.binarySearch;
 
 import java.util.Arrays;
 

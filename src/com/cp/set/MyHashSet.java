@@ -1,4 +1,4 @@
-package com.hotel.set;
+package com.cp.set;
 
 import java.util.LinkedList;
 import java.util.List;

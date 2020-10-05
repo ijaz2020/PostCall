@@ -1,7 +1,7 @@
-package com.hotel;
+package com.cp;
 
-import com.hotel.tree.TreeNode;
-import com.hotel.tree.TreeVisualizer;
+import com.cp.tree.TreeNode;
+import com.cp.tree.TreeVisualizer;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.hotel.BitManipulation;
+package com.cp.BitManipulation;
 
 public class PowerOfFour {
   public static void main(String[] args) {

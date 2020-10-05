@@ -1,4 +1,4 @@
-package com.hotel.game;
+package com.cp.game;
 
 import javax.json.JsonArray;
 import javax.json.JsonObject;

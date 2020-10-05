@@ -1,4 +1,4 @@
-package com.hotel.BitManipulation;
+package com.cp.BitManipulation;
 
 public class Complement {
     public static void main(String[] args) {

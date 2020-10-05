@@ -1,4 +1,4 @@
-package com.hotel.array.sort;
+package com.cp.array.sort;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

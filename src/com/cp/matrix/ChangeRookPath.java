@@ -1,6 +1,6 @@
-package com.hotel.matrix;
+package com.cp.matrix;
 
-import com.hotel.Utils.PrintUtils;
+import com.cp.Utils.PrintUtils;
 
 public class ChangeRookPath {
     public static void main(String[] args){

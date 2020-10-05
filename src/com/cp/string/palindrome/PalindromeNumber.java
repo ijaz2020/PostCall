@@ -1,4 +1,4 @@
-package com.hotel.string.palindrome;
+package com.cp.string.palindrome;
 
 public class PalindromeNumber {
     public static void main(String[] args) {

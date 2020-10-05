@@ -1,4 +1,4 @@
-package com.hotel.string;
+package com.cp.string;
 
 public class NumberOfWaysStringtoThreeSubString {
   public static void main(String[] args) {

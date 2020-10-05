@@ -1,4 +1,4 @@
-package com.hotel.backtracking.bfs;
+package com.cp.backtracking.bfs;
 
 import java.util.*;
 

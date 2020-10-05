@@ -1,6 +1,6 @@
-package com.hotel.Math;
+package com.cp.Math;
 
-import com.hotel.LinkedList.ListNode;
+import com.cp.LinkedList.ListNode;
 
 import java.util.LinkedList;
 

@@ -1,4 +1,4 @@
-package com.hotel.priorityQueue;
+package com.cp.priorityQueue;
 
 import java.util.*;
 

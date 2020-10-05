@@ -1,4 +1,4 @@
-package com.hotel.hashcode;
+package com.cp.hashcode;
 
 import java.util.ArrayList;
 import java.util.Comparator;

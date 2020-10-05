@@ -1,4 +1,4 @@
-package com.hotel.tree;
+package com.cp.tree;
 
 /********************************************************
  * CODE INSTRUCTIONS:                                   *

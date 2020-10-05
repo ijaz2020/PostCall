@@ -1,4 +1,4 @@
-package com.hotel.binarySearch;
+package com.cp.binarySearch;
 
 public class KokoEatingBananas {
   public static void main(String[] args) {

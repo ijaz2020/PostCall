@@ -1,4 +1,4 @@
-package com.hotel.dp;
+package com.cp.dp;
 
 public class BuyStock {
     public static void main(String[] args){

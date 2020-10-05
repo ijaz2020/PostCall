@@ -1,4 +1,4 @@
-package com.hotel.concurrency;
+package com.cp.concurrency;
 
 import java.util.concurrent.Semaphore;
 

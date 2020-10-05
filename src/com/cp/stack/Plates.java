@@ -1,4 +1,4 @@
-package com.hotel.stack;
+package com.cp.stack;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;

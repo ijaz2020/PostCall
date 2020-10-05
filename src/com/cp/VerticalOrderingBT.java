@@ -1,7 +1,7 @@
-package com.hotel;
+package com.cp;
 
 
-import com.hotel.tree.TreeNode;
+import com.cp.tree.TreeNode;
 import javafx.util.Pair;
 
 import java.util.*;

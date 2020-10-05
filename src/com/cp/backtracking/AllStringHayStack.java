@@ -1,4 +1,4 @@
-package com.hotel.backtracking;
+package com.cp.backtracking;
 
 import java.sql.Array;
 import java.util.*;

@@ -1,4 +1,4 @@
-package com.hotel.tamilrockers;
+package com.cp.tamilrockers;
 
 import java.io.BufferedReader;
 import java.io.IOException;

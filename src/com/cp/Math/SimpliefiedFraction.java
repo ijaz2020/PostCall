@@ -1,4 +1,4 @@
-package com.hotel.Math;
+package com.cp.Math;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;

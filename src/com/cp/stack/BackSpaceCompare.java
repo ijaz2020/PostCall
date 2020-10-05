@@ -1,4 +1,4 @@
-package com.hotel.stack;
+package com.cp.stack;
 
 public class BackSpaceCompare {
   public static void main(String[] args) {

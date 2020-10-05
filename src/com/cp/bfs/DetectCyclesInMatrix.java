@@ -1,4 +1,4 @@
-package com.hotel.bfs;
+package com.cp.bfs;
 
 import javafx.util.Pair;
 

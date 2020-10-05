@@ -1,4 +1,4 @@
-package com.hotel.combinatrics;
+package com.cp.combinatrics;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,6 +1,6 @@
-package com.hotel.tree;
+package com.cp.tree;
 
-import com.hotel.Utils.PrintUtils;
+import com.cp.Utils.PrintUtils;
 
 public class InvertTree {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.hotel.graph;
+package com.cp.graph;
 
 
 // IMPORT LIBRARY PACKAGES NEEDED BY YOUR PROGRAM

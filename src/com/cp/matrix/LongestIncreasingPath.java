@@ -1,4 +1,4 @@
-package com.hotel.matrix;
+package com.cp.matrix;
 
 public class LongestIncreasingPath {
     public static void main(String[] args) {

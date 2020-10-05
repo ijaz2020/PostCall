@@ -1,4 +1,4 @@
-package com.hotel.numbers;
+package com.cp.numbers;
 
 import java.util.Arrays;
 

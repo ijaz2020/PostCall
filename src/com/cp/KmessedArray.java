@@ -1,4 +1,4 @@
-package com.hotel;
+package com.cp;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;

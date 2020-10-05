@@ -1,4 +1,4 @@
-package com.hotel.queue;
+package com.cp.queue;
 
 public class MyCircularQueue {
     public static void main(String[] args){

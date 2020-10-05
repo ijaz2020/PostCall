@@ -1,4 +1,4 @@
-package com.hotel.string;
+package com.cp.string;
 
 public class MergeString {
     public static void main(String[] args){

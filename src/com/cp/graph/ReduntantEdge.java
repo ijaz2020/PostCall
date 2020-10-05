@@ -1,4 +1,4 @@
-package com.hotel.graph;
+package com.cp.graph;
 
 import java.util.Arrays;
 import java.util.HashMap;

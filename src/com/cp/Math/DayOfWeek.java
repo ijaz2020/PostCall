@@ -1,4 +1,4 @@
-package com.hotel.Math;
+package com.cp.Math;
 
 public class DayOfWeek {
     public static void main(String[] args){

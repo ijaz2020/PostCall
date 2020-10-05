@@ -1,4 +1,4 @@
-package com.hotel.queue;
+package com.cp.queue;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package com.hotel.BitManipulation;
+package com.cp.BitManipulation;
 
 import java.util.HashMap;
 import java.util.Map;

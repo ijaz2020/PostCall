@@ -1,4 +1,4 @@
-package com.hotel.greedy.interval;
+package com.cp.greedy.interval;
 
 import java.util.*;
 

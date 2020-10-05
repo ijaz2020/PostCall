@@ -1,4 +1,4 @@
-package com.hotel.design;
+package com.cp.design;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

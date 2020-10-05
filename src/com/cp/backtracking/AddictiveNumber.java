@@ -1,4 +1,4 @@
-package com.hotel.backtracking;
+package com.cp.backtracking;
 
 public class AddictiveNumber {
   public static void main(String[] args) {

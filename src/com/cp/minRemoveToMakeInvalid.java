@@ -1,4 +1,4 @@
-package com.hotel;
+package com.cp;
 
 public class minRemoveToMakeInvalid {
     public static void main(String[] args){

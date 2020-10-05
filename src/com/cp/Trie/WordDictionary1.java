@@ -1,4 +1,4 @@
-package com.hotel.Trie;
+package com.cp.Trie;
 
 class WordDictionary1 {
   public static void main(String[] args) {

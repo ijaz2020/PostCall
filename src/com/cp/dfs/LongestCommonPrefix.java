@@ -1,4 +1,4 @@
-package com.hotel.dfs;
+package com.cp.dfs;
 
 public class LongestCommonPrefix {
   public static void main(String[] args) {

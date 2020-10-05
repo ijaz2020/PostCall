@@ -1,6 +1,6 @@
-package com.hotel.backtracking;
+package com.cp.backtracking;
 
-import com.hotel.Utils.PrintUtils;
+import com.cp.Utils.PrintUtils;
 
 import java.lang.reflect.Array;
 import java.util.*;

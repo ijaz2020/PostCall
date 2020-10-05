@@ -1,4 +1,4 @@
-package com.hotel.greedy;
+package com.cp.greedy;
 
 import java.util.LinkedList;
 import java.util.Queue;

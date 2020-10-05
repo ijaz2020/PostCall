@@ -1,4 +1,4 @@
-package com.hotel;
+package com.cp;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
