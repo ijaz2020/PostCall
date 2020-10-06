@@ -1,4 +1,3 @@
-package com.hotel;
 
 public class KnightMove {
         public static final int n = 4;

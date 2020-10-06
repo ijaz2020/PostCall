@@ -22,7 +22,7 @@ public class LRUCache {
     Map<Integer, DLinkedList> lruMap = null;
     DLinkedList head = null, tail = null;
 
-    class DLinkedList {
+    public class DLinkedList {
         int key;
         int val;
         DLinkedList pre;

@@ -5,6 +5,7 @@ build/
 !**/src/main/**
 !**/src/test/**
 target/
+venv/
 
 ### STS ###
 .apt_generated
