@@ -36,4 +36,4 @@ out/
 
 ### Jenv ###
 .java-version
-.DS_Store
+**/.DS_Store
